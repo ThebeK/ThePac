@@ -1,0 +1,33 @@
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\ApplicationInsights.config
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\csc.exe
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\System.Collections.Immutable.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\System.Reflection.Metadata.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\vbc.exe
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\VBCSCompiler.exe
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\roslyn\VBCSCompiler.exe.config
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\SmartPac v1.0.dll.config
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\SmartPac v1.0.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\SmartPac v1.0.pdb
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.DependencyCollector.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.Web.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.WindowsServer.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.ApplicationInsights.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.DependencyCollector.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.Web.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.AI.WindowsServer.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.ApplicationInsights.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\obj\Debug\SmartPac v1.0.csprojResolveAssemblyReference.cache
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\obj\Debug\SmartPac v1.0.dll
+D:\2K18\INF 370\SmartPac\SmartPac v1.0\SmartPac v1.0\obj\Debug\SmartPac v1.0.pdb
