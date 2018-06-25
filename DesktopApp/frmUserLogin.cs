@@ -17,8 +17,8 @@ namespace DesktopApp
         public frmMain()
         {
             InitializeComponent();
-            pnlMenu.Width=pbxMenu.Width;
-            pbxMenu.Location = new Point(0, 0);
+            pnlMenu.Width=60;
+            pbxMenu.Location = new Point(12, 0);
             hidden = true;
             
         }
@@ -28,7 +28,7 @@ namespace DesktopApp
             if (hidden)
             {
                 pnlMenu.Width = pnlMenu.Width + 20;
-                pbxMenu.Location =  new Point(180,0);
+                pbxMenu.Location =  new Point(160,0);
                 if (pnlMenu.Width>=pw)
                 {
                     tmrSlide.Stop();
@@ -39,8 +39,8 @@ namespace DesktopApp
             else
             {
                 pnlMenu.Width = pnlMenu.Width - 20;
-                pbxMenu.Location = new Point(0, 0);
-                if (pnlMenu.Width <= pbxMenu.Width)
+                pbxMenu.Location = new Point(12, 0);
+                if (pnlMenu.Width <= 60)
                 {
                     tmrSlide.Stop();
                     hidden = true;
