@@ -35,7 +35,6 @@
             this.pbxMaxNorm = new System.Windows.Forms.PictureBox();
             this.pbxClose = new System.Windows.Forms.PictureBox();
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.pbxMenu = new System.Windows.Forms.PictureBox();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,6 +51,8 @@
             this.addSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pbxMenu = new System.Windows.Forms.PictureBox();
             this.tmrSlide = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -76,22 +77,22 @@
             this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.ucLogin1 = new DesktopApp.UCLogin();
             this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMaxNorm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxClose)).BeginInit();
             this.pnlMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.menuStrip2.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -156,24 +157,12 @@
             this.pnlMenu.Size = new System.Drawing.Size(202, 430);
             this.pnlMenu.TabIndex = 3;
             // 
-            // pbxMenu
-            // 
-            this.pbxMenu.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.pbxMenu.Image = ((System.Drawing.Image)(resources.GetObject("pbxMenu.Image")));
-            this.pbxMenu.Location = new System.Drawing.Point(161, 0);
-            this.pbxMenu.Name = "pbxMenu";
-            this.pbxMenu.Size = new System.Drawing.Size(40, 40);
-            this.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbxMenu.TabIndex = 1;
-            this.pbxMenu.TabStop = false;
-            this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
-            // 
             // menuStrip2
             // 
             this.menuStrip2.AutoSize = false;
             this.menuStrip2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.menuStrip2.Font = new System.Drawing.Font("Tekton Pro Ext", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
             this.ordersToolStripMenuItem,
@@ -217,13 +206,13 @@
             // purchaseOrderToolStripMenuItem
             // 
             this.purchaseOrderToolStripMenuItem.Name = "purchaseOrderToolStripMenuItem";
-            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(312, 38);
+            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
             this.purchaseOrderToolStripMenuItem.Text = "Purchase Order";
             // 
             // supplierOrderToolStripMenuItem
             // 
             this.supplierOrderToolStripMenuItem.Name = "supplierOrderToolStripMenuItem";
-            this.supplierOrderToolStripMenuItem.Size = new System.Drawing.Size(312, 38);
+            this.supplierOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
             this.supplierOrderToolStripMenuItem.Text = "Supplier Order";
             // 
             // saleToolStripMenuItem
@@ -254,13 +243,13 @@
             // addClientToolStripMenuItem
             // 
             this.addClientToolStripMenuItem.Name = "addClientToolStripMenuItem";
-            this.addClientToolStripMenuItem.Size = new System.Drawing.Size(339, 38);
+            this.addClientToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
             this.addClientToolStripMenuItem.Text = "Add Client";
             // 
             // maintainProductToolStripMenuItem
             // 
             this.maintainProductToolStripMenuItem.Name = "maintainProductToolStripMenuItem";
-            this.maintainProductToolStripMenuItem.Size = new System.Drawing.Size(339, 38);
+            this.maintainProductToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
             this.maintainProductToolStripMenuItem.Text = "Maintain Product";
             // 
             // productToolStripMenuItem
@@ -280,13 +269,13 @@
             // addNewProductToolStripMenuItem
             // 
             this.addNewProductToolStripMenuItem.Name = "addNewProductToolStripMenuItem";
-            this.addNewProductToolStripMenuItem.Size = new System.Drawing.Size(339, 38);
+            this.addNewProductToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
             this.addNewProductToolStripMenuItem.Text = "Add Product";
             // 
             // maintainToolStripMenuItem
             // 
             this.maintainToolStripMenuItem.Name = "maintainToolStripMenuItem";
-            this.maintainToolStripMenuItem.Size = new System.Drawing.Size(339, 38);
+            this.maintainToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
             this.maintainToolStripMenuItem.Text = "Maintain Product";
             // 
             // supplierToolStripMenuItem
@@ -306,13 +295,13 @@
             // addSupplierToolStripMenuItem
             // 
             this.addSupplierToolStripMenuItem.Name = "addSupplierToolStripMenuItem";
-            this.addSupplierToolStripMenuItem.Size = new System.Drawing.Size(341, 38);
+            this.addSupplierToolStripMenuItem.Size = new System.Drawing.Size(313, 36);
             this.addSupplierToolStripMenuItem.Text = "Add Supplier";
             // 
             // maintainSupplierToolStripMenuItem
             // 
             this.maintainSupplierToolStripMenuItem.Name = "maintainSupplierToolStripMenuItem";
-            this.maintainSupplierToolStripMenuItem.Size = new System.Drawing.Size(341, 38);
+            this.maintainSupplierToolStripMenuItem.Size = new System.Drawing.Size(313, 36);
             this.maintainSupplierToolStripMenuItem.Text = "Maintain Supplier";
             // 
             // reportToolStripMenuItem
@@ -325,6 +314,27 @@
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(190, 50);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.pbxMenu);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(202, 40);
+            this.panel5.TabIndex = 4;
+            // 
+            // pbxMenu
+            // 
+            this.pbxMenu.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.pbxMenu.Image = ((System.Drawing.Image)(resources.GetObject("pbxMenu.Image")));
+            this.pbxMenu.Location = new System.Drawing.Point(161, 0);
+            this.pbxMenu.Name = "pbxMenu";
+            this.pbxMenu.Size = new System.Drawing.Size(40, 40);
+            this.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxMenu.TabIndex = 1;
+            this.pbxMenu.TabStop = false;
+            this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
             // 
             // tmrSlide
             // 
@@ -354,7 +364,7 @@
             // 
             // loginToolStripMenuItem
             // 
-            this.loginToolStripMenuItem.Font = new System.Drawing.Font("Tekton Pro Ext", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
             this.loginToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
             this.loginToolStripMenuItem.Text = "Login";
@@ -368,9 +378,9 @@
             this.employeeToolStripMenuItem,
             this.adminToolStripMenuItem,
             this.vehicleToolStripMenuItem});
-            this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Tekton Pro Ext", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(94, 26);
             this.optionsToolStripMenuItem.Text = "Options";
             // 
             // userToolStripMenuItem
@@ -379,19 +389,19 @@
             this.registerUserPasswordToolStripMenuItem,
             this.maintainUserProfileToolStripMenuItem});
             this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(211, 28);
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(204, 28);
             this.userToolStripMenuItem.Text = "User";
             // 
             // registerUserPasswordToolStripMenuItem
             // 
             this.registerUserPasswordToolStripMenuItem.Name = "registerUserPasswordToolStripMenuItem";
-            this.registerUserPasswordToolStripMenuItem.Size = new System.Drawing.Size(292, 28);
+            this.registerUserPasswordToolStripMenuItem.Size = new System.Drawing.Size(272, 28);
             this.registerUserPasswordToolStripMenuItem.Text = "Register User Profile";
             // 
             // maintainUserProfileToolStripMenuItem
             // 
             this.maintainUserProfileToolStripMenuItem.Name = "maintainUserProfileToolStripMenuItem";
-            this.maintainUserProfileToolStripMenuItem.Size = new System.Drawing.Size(292, 28);
+            this.maintainUserProfileToolStripMenuItem.Size = new System.Drawing.Size(272, 28);
             this.maintainUserProfileToolStripMenuItem.Text = "Maintain User Profile";
             // 
             // accessLeveToolStripMenuItem
@@ -400,19 +410,19 @@
             this.addAccessLevelToolStripMenuItem,
             this.maintainAccessLevelToolStripMenuItem});
             this.accessLeveToolStripMenuItem.Name = "accessLeveToolStripMenuItem";
-            this.accessLeveToolStripMenuItem.Size = new System.Drawing.Size(211, 28);
+            this.accessLeveToolStripMenuItem.Size = new System.Drawing.Size(204, 28);
             this.accessLeveToolStripMenuItem.Text = "Access Level";
             // 
             // addAccessLevelToolStripMenuItem
             // 
             this.addAccessLevelToolStripMenuItem.Name = "addAccessLevelToolStripMenuItem";
-            this.addAccessLevelToolStripMenuItem.Size = new System.Drawing.Size(305, 28);
+            this.addAccessLevelToolStripMenuItem.Size = new System.Drawing.Size(288, 28);
             this.addAccessLevelToolStripMenuItem.Text = "Add Access Level";
             // 
             // maintainAccessLevelToolStripMenuItem
             // 
             this.maintainAccessLevelToolStripMenuItem.Name = "maintainAccessLevelToolStripMenuItem";
-            this.maintainAccessLevelToolStripMenuItem.Size = new System.Drawing.Size(305, 28);
+            this.maintainAccessLevelToolStripMenuItem.Size = new System.Drawing.Size(288, 28);
             this.maintainAccessLevelToolStripMenuItem.Text = "Maintain Access Level";
             // 
             // employeeToolStripMenuItem
@@ -421,19 +431,19 @@
             this.addEmployeeToolStripMenuItem,
             this.maintainEmployeeToolStripMenuItem});
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(211, 28);
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(204, 28);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
             // addEmployeeToolStripMenuItem
             // 
             this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(270, 28);
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
             this.addEmployeeToolStripMenuItem.Text = "Add Employee";
             // 
             // maintainEmployeeToolStripMenuItem
             // 
             this.maintainEmployeeToolStripMenuItem.Name = "maintainEmployeeToolStripMenuItem";
-            this.maintainEmployeeToolStripMenuItem.Size = new System.Drawing.Size(270, 28);
+            this.maintainEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
             this.maintainEmployeeToolStripMenuItem.Text = "Maintain Employee";
             // 
             // adminToolStripMenuItem
@@ -445,36 +455,36 @@
             this.backupToolStripMenuItem,
             this.restoreToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(211, 28);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(204, 28);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // notificationToolStripMenuItem
             // 
             this.notificationToolStripMenuItem.Name = "notificationToolStripMenuItem";
-            this.notificationToolStripMenuItem.Size = new System.Drawing.Size(374, 28);
+            this.notificationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.notificationToolStripMenuItem.Text = "Notification";
             // 
             // updateCompanyInformationToolStripMenuItem
             // 
             this.updateCompanyInformationToolStripMenuItem.Name = "updateCompanyInformationToolStripMenuItem";
-            this.updateCompanyInformationToolStripMenuItem.Size = new System.Drawing.Size(374, 28);
+            this.updateCompanyInformationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.updateCompanyInformationToolStripMenuItem.Text = "Update Company Information";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(371, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(346, 6);
             // 
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(374, 28);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.backupToolStripMenuItem.Text = "Backup";
             // 
             // restoreToolStripMenuItem
             // 
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
-            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(374, 28);
+            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.restoreToolStripMenuItem.Text = "Restore";
             // 
             // vehicleToolStripMenuItem
@@ -483,23 +493,24 @@
             this.addVehicleToolStripMenuItem,
             this.maintainVehicleToolStripMenuItem});
             this.vehicleToolStripMenuItem.Name = "vehicleToolStripMenuItem";
-            this.vehicleToolStripMenuItem.Size = new System.Drawing.Size(211, 28);
+            this.vehicleToolStripMenuItem.Size = new System.Drawing.Size(204, 28);
             this.vehicleToolStripMenuItem.Text = "Vehicle";
             // 
             // addVehicleToolStripMenuItem
             // 
             this.addVehicleToolStripMenuItem.Name = "addVehicleToolStripMenuItem";
-            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(243, 28);
+            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
             this.addVehicleToolStripMenuItem.Text = "Add Vehicle";
             // 
             // maintainVehicleToolStripMenuItem
             // 
             this.maintainVehicleToolStripMenuItem.Name = "maintainVehicleToolStripMenuItem";
-            this.maintainVehicleToolStripMenuItem.Size = new System.Drawing.Size(243, 28);
+            this.maintainVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
             this.maintainVehicleToolStripMenuItem.Text = "Maintain Vehicle";
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.ucLogin1);
             this.panel3.Controls.Add(this.ucDashboard1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -507,6 +518,21 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(598, 400);
             this.panel3.TabIndex = 5;
+            // 
+            // ucLogin1
+            // 
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(598, 400);
+            this.ucLogin1.TabIndex = 0;
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
             // 
             // imlMaxNorm
             // 
@@ -523,29 +549,14 @@
             this.panel4.Size = new System.Drawing.Size(800, 30);
             this.panel4.TabIndex = 6;
             // 
-            // panel5
+            // button1
             // 
-            this.panel5.Controls.Add(this.pbxMenu);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(202, 40);
-            this.panel5.TabIndex = 4;
-            // 
-            // ucLogin1
-            // 
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(598, 400);
-            this.ucLogin1.TabIndex = 0;
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
+            this.button1.Location = new System.Drawing.Point(394, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
@@ -566,14 +577,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxMaxNorm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxClose)).EndInit();
             this.pnlMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -631,5 +642,6 @@
         private System.Windows.Forms.ToolStripMenuItem addSupplierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainSupplierToolStripMenuItem;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button1;
     }
 }
