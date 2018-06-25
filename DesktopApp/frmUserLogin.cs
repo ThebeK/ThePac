@@ -80,5 +80,17 @@ namespace DesktopApp
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void dashboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ucDashboard1.BringToFront();
+            ucDashboard1.Dock=DockStyle.Fill;
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ucLogin1.BringToFront();
+            ucLogin1.Dock = DockStyle.Fill;
+        }
     }
 }

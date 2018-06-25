@@ -8,3 +8,4 @@ D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.exe
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.pdb
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.UCLogin.resources
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
+D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.UCDashboard.resources
