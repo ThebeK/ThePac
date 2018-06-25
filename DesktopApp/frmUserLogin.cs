@@ -17,6 +17,23 @@ namespace DesktopApp
         public frmMain()
         {
             InitializeComponent();
+
+            menuStrip2.Size = new Size(60, 390);
+            ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ordersToolStripMenuItem.Size = new Size(50, 50);
+            dashboardToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            dashboardToolStripMenuItem.Size = new Size(50, 50);
+            saleToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            saleToolStripMenuItem.Size = new Size(50, 50);
+            clientToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            clientToolStripMenuItem.Size = new Size(50, 50);
+            productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            productToolStripMenuItem.Size = new Size(50, 50);
+            supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            supplierToolStripMenuItem.Size = new Size(50, 50);
+            reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            reportToolStripMenuItem.Size = new Size(50, 50);
+
             pnlMenu.Width=60;
             pbxMenu.Location = new Point(12, 0);
             hidden = true;
@@ -35,6 +52,21 @@ namespace DesktopApp
                     hidden = false;
                     this.Refresh();
                 }
+                menuStrip2.Size = new Size(200, 390);
+                ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                ordersToolStripMenuItem.Size = new Size(200, 50);
+                dashboardToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                dashboardToolStripMenuItem.Size = new Size(200, 50);
+                saleToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                saleToolStripMenuItem.Size = new Size(200, 50);
+                clientToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                clientToolStripMenuItem.Size = new Size(200, 50);
+                productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                productToolStripMenuItem.Size = new Size(200, 50);
+                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                supplierToolStripMenuItem.Size = new Size(200, 50);
+                reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
+                reportToolStripMenuItem.Size = new Size(200, 50);
             }
             else
             {
@@ -46,6 +78,21 @@ namespace DesktopApp
                     hidden = true;
                     this.Refresh();
                 }
+                menuStrip2.Size = new Size(60, 390);
+                ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                ordersToolStripMenuItem.Size = new Size(50, 50);
+                dashboardToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                dashboardToolStripMenuItem.Size = new Size(50, 50);
+                saleToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                saleToolStripMenuItem.Size = new Size(50, 50);
+                clientToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                clientToolStripMenuItem.Size = new Size(50, 50);
+                productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                productToolStripMenuItem.Size = new Size(50, 50);
+                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                supplierToolStripMenuItem.Size = new Size(50, 50);
+                reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
+                reportToolStripMenuItem.Size = new Size(50, 50);
             }
         }
 
@@ -68,10 +115,12 @@ namespace DesktopApp
             if (this.WindowState==FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
+                pbxMaxNorm.Image = imlMaxNorm.Images[1];
             }
             else
             {
                 this.WindowState = FormWindowState.Normal;
+                pbxMaxNorm.Image = imlMaxNorm.Images[0];
             }
             
         }

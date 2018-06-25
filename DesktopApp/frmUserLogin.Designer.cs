@@ -109,7 +109,7 @@
             // pbxMin
             // 
             this.pbxMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbxMin.BackColor = System.Drawing.Color.DarkGray;
+            this.pbxMin.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMin.Image = ((System.Drawing.Image)(resources.GetObject("pbxMin.Image")));
             this.pbxMin.Location = new System.Drawing.Point(695, 3);
             this.pbxMin.Name = "pbxMin";
@@ -122,7 +122,7 @@
             // pbxMaxNorm
             // 
             this.pbxMaxNorm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbxMaxNorm.BackColor = System.Drawing.Color.DarkGray;
+            this.pbxMaxNorm.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMaxNorm.Image = ((System.Drawing.Image)(resources.GetObject("pbxMaxNorm.Image")));
             this.pbxMaxNorm.Location = new System.Drawing.Point(731, 3);
             this.pbxMaxNorm.Name = "pbxMaxNorm";
@@ -135,7 +135,7 @@
             // pbxClose
             // 
             this.pbxClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbxClose.BackColor = System.Drawing.Color.DarkGray;
+            this.pbxClose.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxClose.Image = ((System.Drawing.Image)(resources.GetObject("pbxClose.Image")));
             this.pbxClose.Location = new System.Drawing.Point(767, 3);
             this.pbxClose.Name = "pbxClose";
@@ -184,7 +184,7 @@
             this.reportToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 40);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(201, 390);
+            this.menuStrip2.Size = new System.Drawing.Size(200, 390);
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -510,9 +510,10 @@
             // 
             // imlMaxNorm
             // 
-            this.imlMaxNorm.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imlMaxNorm.ImageSize = new System.Drawing.Size(16, 16);
+            this.imlMaxNorm.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlMaxNorm.ImageStream")));
             this.imlMaxNorm.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlMaxNorm.Images.SetKeyName(0, "Maximise.png");
+            this.imlMaxNorm.Images.SetKeyName(1, "Normal.png");
             // 
             // panel4
             // 
