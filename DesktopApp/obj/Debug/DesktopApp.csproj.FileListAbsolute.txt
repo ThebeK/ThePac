@@ -27,3 +27,6 @@ C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.csproj.G
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCAddOrder.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCConfirmDelivery.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCNull.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.frmCreditReturn.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.ucBackOrder.resources

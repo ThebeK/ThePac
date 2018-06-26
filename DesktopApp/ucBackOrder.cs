@@ -16,5 +16,16 @@ namespace DesktopApp
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmCreditReturn frm = new frmCreditReturn();
+            frm.ShowDialog();
+        }
     }
 }
