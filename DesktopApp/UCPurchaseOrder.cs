@@ -18,5 +18,10 @@ namespace DesktopApp
         {
             InitializeComponent();
         }
+
+        private void UCPurchaseOrder_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
