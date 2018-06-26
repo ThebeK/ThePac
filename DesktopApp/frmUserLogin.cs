@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+using MetroFramework;
 
 namespace DesktopApp
 {
@@ -16,7 +18,13 @@ namespace DesktopApp
         bool hidden;
         public frmMain()
         {
+
+            Thread t = new Thread(new ThreadStart(Loading));
+            t.Start();
             InitializeComponent();
+            for (int i = 0; i < 1000; i++)
+                Thread.Sleep(10);
+            t.Abort();
 
             menuStrip2.Size = new Size(60, 390);
             ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
@@ -38,6 +46,11 @@ namespace DesktopApp
             pbxMenu.Location = new Point(12, 0);
             hidden = true;
             
+        }
+        void Loading()
+        {
+            SplashScreen frm = new SplashScreen();
+            Application.Run(frm);
         }
 
         private void timer1_Tick(object sender, EventArgs e)

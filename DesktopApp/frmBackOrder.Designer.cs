@@ -50,7 +50,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(385, 40);
+            this.panel2.Size = new System.Drawing.Size(443, 40);
             this.panel2.TabIndex = 3;
             // 
             // pbxMin
@@ -58,7 +58,7 @@
             this.pbxMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxMin.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMin.Image = ((System.Drawing.Image)(resources.GetObject("pbxMin.Image")));
-            this.pbxMin.Location = new System.Drawing.Point(280, 3);
+            this.pbxMin.Location = new System.Drawing.Point(338, 3);
             this.pbxMin.Name = "pbxMin";
             this.pbxMin.Size = new System.Drawing.Size(30, 30);
             this.pbxMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -71,7 +71,7 @@
             this.pbxMaxNorm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxMaxNorm.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMaxNorm.Image = ((System.Drawing.Image)(resources.GetObject("pbxMaxNorm.Image")));
-            this.pbxMaxNorm.Location = new System.Drawing.Point(316, 3);
+            this.pbxMaxNorm.Location = new System.Drawing.Point(374, 3);
             this.pbxMaxNorm.Name = "pbxMaxNorm";
             this.pbxMaxNorm.Size = new System.Drawing.Size(30, 30);
             this.pbxMaxNorm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -84,7 +84,7 @@
             this.pbxClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxClose.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxClose.Image = ((System.Drawing.Image)(resources.GetObject("pbxClose.Image")));
-            this.pbxClose.Location = new System.Drawing.Point(352, 3);
+            this.pbxClose.Location = new System.Drawing.Point(410, 3);
             this.pbxClose.Name = "pbxClose";
             this.pbxClose.Size = new System.Drawing.Size(30, 30);
             this.pbxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -103,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 385);
+            this.ClientSize = new System.Drawing.Size(443, 430);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCreditReturn";
