@@ -41,6 +41,7 @@ D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\System.Web.Webpages.Deployment.
 D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\System.Web.Webpages.Razor.xml
 D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\System.Web.Helpers.xml
 D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\System.Web.Mvc.xml
-D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
 D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb
+D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\MetroFramework.dll
+D:\2K18\INF 370\SmartPac\Repos\SmartPac v1.1\bin\MetroFramework.Fonts.dll

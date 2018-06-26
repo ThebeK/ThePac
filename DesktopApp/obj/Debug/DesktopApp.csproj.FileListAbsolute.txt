@@ -1,4 +1,3 @@
-D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\bin\Debug\DesktopApp.exe.config
@@ -9,3 +8,6 @@ D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.pdb
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.UCLogin.resources
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
 D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.UCDashboard.resources
+D:\2K18\INF 370\SmartPac\Repos\DesktopApp\bin\Debug\MetroFramework.dll
+D:\2K18\INF 370\SmartPac\Repos\DesktopApp\bin\Debug\MetroFramework.Fonts.dll
+D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.UCPurchaseOrder.resources

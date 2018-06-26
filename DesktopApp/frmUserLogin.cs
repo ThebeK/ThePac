@@ -141,5 +141,11 @@ namespace DesktopApp
             ucLogin1.BringToFront();
             ucLogin1.Dock = DockStyle.Fill;
         }
+
+        private void purchaseOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ucPurchaseOrder1.BringToFront();
+            ucPurchaseOrder1.Dock = DockStyle.Fill;
+        }
     }
 }
