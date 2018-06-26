@@ -142,10 +142,17 @@ namespace DesktopApp
             ucLogin1.Dock = DockStyle.Fill;
         }
 
-        private void purchaseOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        public void purchaseOrderToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
+          //  ucPurchaseOrder1.panel4.Controls.Clear();
+            UCNull nullclient = new UCNull();
+            ucPurchaseOrder1.panel4.Controls.Add(nullclient);
+            nullclient.BringToFront();
+            nullclient.Dock = DockStyle.Fill;
             ucPurchaseOrder1.BringToFront();
             ucPurchaseOrder1.Dock = DockStyle.Fill;
+
         }
     }
 }
