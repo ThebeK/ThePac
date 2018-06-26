@@ -18,11 +18,15 @@ C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\bin\Debug\DesktopApp.exe
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\bin\Debug\DesktopApp.pdb
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\bin\Debug\MetroFramework.dll
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCDashboard.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCLogin.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCPurchaseOrder.resources
 C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache
-D:\2K18\INF 370\SmartPac\Repos\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCAddOrder.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCConfirmDelivery.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.UCNull.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.frmCreditReturn.resources
+C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.ucBackOrder.resources
