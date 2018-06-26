@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
-using MetroFramework;
+//using MetroFramework;
+//using MetroFramework.Forms;
 
 namespace DesktopApp
 {
@@ -19,12 +20,12 @@ namespace DesktopApp
         public frmMain()
         {
 
-            Thread t = new Thread(new ThreadStart(Loading));
-            t.Start();
+            //Thread t = new Thread(new ThreadStart(Loading));
+            //t.Start();
             InitializeComponent();
-            for (int i = 0; i < 1000; i++)
-                Thread.Sleep(10);
-            t.Abort();
+            //for (int i = 0; i < 1000; i++)
+            //    Thread.Sleep(10);
+            //t.Abort();
 
             menuStrip2.Size = new Size(60, 390);
             ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
@@ -47,11 +48,11 @@ namespace DesktopApp
             hidden = true;
             
         }
-        void Loading()
-        {
-            SplashScreen frm = new SplashScreen();
-            Application.Run(frm);
-        }
+        //void Loading()
+        //{
+        //    SplashScreen frm = new SplashScreen();
+        //    Application.Run(frm);
+        //}
 
         private void timer1_Tick(object sender, EventArgs e)
         {
