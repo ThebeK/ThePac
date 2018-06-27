@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBackOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmBackOrder.Designer.cs">
-      <DependentUpon>frmBackOrder.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,12 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SplashScreen.Designer.cs">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </Compile>
     <Compile Include="UCAddOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,9 +102,18 @@
     <Compile Include="UCPurchaseOrder.Designer.cs">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmBackOrder.resx">
-      <DependentUpon>frmBackOrder.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="UCSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSupplier.Designer.cs">
+      <DependentUpon>UCSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCViewOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCViewOrders.Designer.cs">
+      <DependentUpon>UCViewOrders.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,9 +130,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SplashScreen.resx">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UCAddOrder.resx">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSupplier.resx">
+      <DependentUpon>UCSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCViewOrders.resx">
+      <DependentUpon>UCViewOrders.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

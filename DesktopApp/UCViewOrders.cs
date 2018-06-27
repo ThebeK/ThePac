@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCConfirmDelivery : UserControl
+    public partial class UCViewOrders : UserControl
     {
-        public UCConfirmDelivery()
+        public UCViewOrders()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

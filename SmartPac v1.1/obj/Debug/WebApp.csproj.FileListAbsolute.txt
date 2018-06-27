@@ -92,3 +92,50 @@ C:\Users\Thabang Monyamane\Source\Repo1\SmartPac v1.1\bin\System.Web.Helpers.xml
 C:\Users\Thabang Monyamane\Source\Repo1\SmartPac v1.1\bin\System.Web.Mvc.xml
 C:\Users\Thabang Monyamane\Source\Repo1\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
 C:\Users\Thabang Monyamane\Source\Repo1\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb
+C:\VS\SmartPac repo\SmartPac v1.1\bin\ApplicationInsights.config
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\csc.exe
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\System.Collections.Immutable.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\System.Reflection.Metadata.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\vbc.exe
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\VBCSCompiler.exe
+C:\VS\SmartPac repo\SmartPac v1.1\bin\roslyn\VBCSCompiler.exe.config
+C:\VS\SmartPac repo\SmartPac v1.1\bin\SmartPac v1.1.dll.config
+C:\VS\SmartPac repo\SmartPac v1.1\bin\SmartPac v1.1.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\SmartPac v1.1.pdb
+C:\VS\SmartPac repo\SmartPac v1.1\bin\MetroFramework.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\MetroFramework.Fonts.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.DependencyCollector.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.Web.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.WindowsServer.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.ApplicationInsights.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.Web.Infrastructure.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Helpers.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Mvc.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Razor.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.Deployment.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.Razor.dll
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.DependencyCollector.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.Web.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.AI.WindowsServer.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.ApplicationInsights.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Razor.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.Deployment.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Webpages.Razor.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Helpers.xml
+C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Mvc.xml
+C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
+C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb

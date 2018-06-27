@@ -78,12 +78,12 @@
             this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ucLogin1 = new DesktopApp.UCLogin();
             this.button1 = new System.Windows.Forms.Button();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
+            this.ucLogin1 = new DesktopApp.UCLogin();
+            this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMin)).BeginInit();
@@ -230,6 +230,7 @@
             this.supplierOrderToolStripMenuItem.Name = "supplierOrderToolStripMenuItem";
             this.supplierOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
             this.supplierOrderToolStripMenuItem.Text = "Supplier Order";
+            this.supplierOrderToolStripMenuItem.Click += new System.EventHandler(this.supplierOrderToolStripMenuItem_Click);
             // 
             // saleToolStripMenuItem
             // 
@@ -536,14 +537,6 @@
             this.panel3.Size = new System.Drawing.Size(607, 398);
             this.panel3.TabIndex = 5;
             // 
-            // ucLogin1
-            // 
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(607, 398);
-            this.ucLogin1.TabIndex = 0;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(383, 54);
@@ -552,20 +545,6 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // imlMaxNorm
             // 
@@ -581,6 +560,28 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(809, 30);
             this.panel4.TabIndex = 6;
+            // 
+            // ucLogin1
+            // 
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(607, 398);
+            this.ucLogin1.TabIndex = 0;
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
+            // 
+            // ucPurchaseOrder1
+            // 
+            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
+            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
+            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
+            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // frmMain
             // 

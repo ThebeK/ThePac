@@ -80,7 +80,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Maiandra GD", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(445, 9);
+            this.label1.Location = new System.Drawing.Point(446, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 32);
             this.label1.TabIndex = 2;
@@ -97,9 +97,9 @@
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(53, 53);
+            this.groupBox1.Location = new System.Drawing.Point(54, 53);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(285, 215);
+            this.groupBox1.Size = new System.Drawing.Size(285, 217);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Selection";
@@ -107,9 +107,9 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.button2.Location = new System.Drawing.Point(194, 188);
+            this.button2.Location = new System.Drawing.Point(204, 186);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 0);
+            this.button2.Size = new System.Drawing.Size(75, 25);
             this.button2.TabIndex = 7;
             this.button2.Text = "Add ";
             this.button2.UseVisualStyleBackColor = true;
@@ -155,9 +155,9 @@
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(369, 53);
+            this.dataGridView1.Location = new System.Drawing.Point(370, 53);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(652, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(652, 307);
             this.dataGridView1.TabIndex = 4;
             // 
             // groupBox2
@@ -168,9 +168,9 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(53, 290);
+            this.groupBox2.Location = new System.Drawing.Point(54, 290);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(285, 136);
+            this.groupBox2.Size = new System.Drawing.Size(285, 138);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Order Total";
@@ -218,9 +218,9 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button1.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(880, 388);
+            this.button1.Location = new System.Drawing.Point(881, 388);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 21);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
@@ -229,9 +229,9 @@
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(451, 388);
+            this.button3.Location = new System.Drawing.Point(452, 388);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 21);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 8;
             this.button3.Text = "Cancel";
             this.button3.UseVisualStyleBackColor = true;
@@ -240,8 +240,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Menu;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.BackColor = System.Drawing.Color.Azure;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
@@ -249,7 +248,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "UCAddOrder";
-            this.Size = new System.Drawing.Size(1047, 479);
+            this.Size = new System.Drawing.Size(1049, 481);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
