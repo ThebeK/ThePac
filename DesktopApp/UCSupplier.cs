@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class SplashScreen : Form
+    public partial class UCSupplier : UserControl
     {
-        public SplashScreen()
+        public UCSupplier()
         {
             InitializeComponent();
-        }
-
-        private void SplashScreen_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

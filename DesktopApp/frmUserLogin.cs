@@ -17,9 +17,10 @@ namespace DesktopApp
         bool hidden;
         public frmMain()
         {
+           // frmSplashScreen load = new frmSplashScreen();
             Thread t = new Thread(new ThreadStart(splash));
             t.Start();
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             InitializeComponent();
 
@@ -46,10 +47,7 @@ namespace DesktopApp
             hidden = true;
             
         }
-        public void splash()
-        {
-            Application.Run(new frmSplashScreen());
-        }
+    
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -106,6 +104,11 @@ namespace DesktopApp
                 reportToolStripMenuItem.Size = new Size(50, 50);
             }
         }
+        public void splash()
+        {
+            Application.Run(new frmSplashScreen());
+        }
+
 
         private void pbxMenu_Click(object sender, EventArgs e)
         {
@@ -164,6 +167,15 @@ namespace DesktopApp
             ucPurchaseOrder1.BringToFront();
             ucPurchaseOrder1.Dock = DockStyle.Fill;
 
+        }
+
+        private void supplierOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            ucPurchaseOrder1.panel4.Controls.Add(nullclient);
+          
+            ucPurchaseOrder1.BringToFront();
+            ucPurchaseOrder1.Dock = DockStyle.Fill;
         }
     }
 }

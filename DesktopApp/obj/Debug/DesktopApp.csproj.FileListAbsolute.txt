@@ -55,12 +55,9 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.exe
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.pdb
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\DesktopApp.exe
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\DesktopApp.pdb
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmCreditReturn.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmSplashScreen.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.SplashScreen.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.ucBackOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCConfirmDelivery.resources
@@ -69,3 +66,5 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCLogin.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCNull.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPurchaseOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resources
