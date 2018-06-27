@@ -16,5 +16,14 @@ namespace DesktopApp
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            UCSuppAddOrder addOrder = new UCSuppAddOrder();
+            panel4.Controls.Add(addOrder);
+            addOrder.BringToFront();
+            addOrder.Dock = DockStyle.Fill;
+            
+        }
     }
 }

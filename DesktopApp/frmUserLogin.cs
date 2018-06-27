@@ -171,11 +171,15 @@ namespace DesktopApp
 
         private void supplierOrderToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-            ucPurchaseOrder1.panel4.Controls.Add(nullclient);
-          
-            ucPurchaseOrder1.BringToFront();
-            ucPurchaseOrder1.Dock = DockStyle.Fill;
+            UCSupplier SupplierOrder = new UCSupplier();
+            this.panel3.Controls.Add(SupplierOrder);         
+            SupplierOrder.BringToFront();
+            SupplierOrder.Dock = DockStyle.Fill;
+
+            UCViewOrders ViewOrder = new UCViewOrders();
+            SupplierOrder.panel4.Controls.Add(ViewOrder);
+            ViewOrder.BringToFront();
+            ViewOrder.Dock = DockStyle.Fill;
         }
     }
 }
