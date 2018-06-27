@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class SplashScreen : MetroFramework.Forms.MetroForm
+    public partial class SplashScreen : Form
     {
         public SplashScreen()
         {

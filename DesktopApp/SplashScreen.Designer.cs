@@ -37,16 +37,12 @@
             // metroPanel1
             // 
             this.metroPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroPanel1.BackgroundImage")));
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
+            
             this.metroPanel1.Location = new System.Drawing.Point(161, 63);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(185, 188);
             this.metroPanel1.TabIndex = 0;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            
             // 
             // metroProgressBar1
             // 
@@ -83,8 +79,8 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
+        private System.Windows.Forms.Panel metroPanel1;
+        private System.Windows.Forms.ProgressBar metroProgressBar1;
         private System.Windows.Forms.Label label1;
     }
 }

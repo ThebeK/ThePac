@@ -106,9 +106,9 @@
             this.panel2.Controls.Add(this.pbxMaxNorm);
             this.panel2.Controls.Add(this.pbxClose);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(20, 30);
+            this.panel2.Location = new System.Drawing.Point(1, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(760, 40);
+            this.panel2.Size = new System.Drawing.Size(809, 40);
             this.panel2.TabIndex = 2;
             // 
             // pictureBox1
@@ -127,7 +127,7 @@
             this.pbxMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxMin.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMin.Image = ((System.Drawing.Image)(resources.GetObject("pbxMin.Image")));
-            this.pbxMin.Location = new System.Drawing.Point(655, 3);
+            this.pbxMin.Location = new System.Drawing.Point(704, 3);
             this.pbxMin.Name = "pbxMin";
             this.pbxMin.Size = new System.Drawing.Size(30, 30);
             this.pbxMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -140,7 +140,7 @@
             this.pbxMaxNorm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxMaxNorm.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxMaxNorm.Image = ((System.Drawing.Image)(resources.GetObject("pbxMaxNorm.Image")));
-            this.pbxMaxNorm.Location = new System.Drawing.Point(691, 3);
+            this.pbxMaxNorm.Location = new System.Drawing.Point(740, 3);
             this.pbxMaxNorm.Name = "pbxMaxNorm";
             this.pbxMaxNorm.Size = new System.Drawing.Size(30, 30);
             this.pbxMaxNorm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -153,7 +153,7 @@
             this.pbxClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxClose.BackColor = System.Drawing.Color.DodgerBlue;
             this.pbxClose.Image = ((System.Drawing.Image)(resources.GetObject("pbxClose.Image")));
-            this.pbxClose.Location = new System.Drawing.Point(727, 3);
+            this.pbxClose.Location = new System.Drawing.Point(776, 3);
             this.pbxClose.Name = "pbxClose";
             this.pbxClose.Size = new System.Drawing.Size(30, 30);
             this.pbxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -167,9 +167,9 @@
             this.pnlMenu.Controls.Add(this.menuStrip2);
             this.pnlMenu.Controls.Add(this.panel5);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlMenu.Location = new System.Drawing.Point(20, 70);
+            this.pnlMenu.Location = new System.Drawing.Point(1, 41);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(202, 380);
+            this.pnlMenu.Size = new System.Drawing.Size(202, 428);
             this.pnlMenu.TabIndex = 3;
             // 
             // menuStrip2
@@ -188,7 +188,7 @@
             this.reportToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 40);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(200, 340);
+            this.menuStrip2.Size = new System.Drawing.Size(200, 388);
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -361,9 +361,9 @@
             // 
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(222, 70);
+            this.panel1.Location = new System.Drawing.Point(203, 41);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(558, 30);
+            this.panel1.Size = new System.Drawing.Size(607, 30);
             this.panel1.TabIndex = 4;
             // 
             // menuStrip1
@@ -374,7 +374,7 @@
             this.optionsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(558, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(607, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -531,9 +531,9 @@
             this.panel3.Controls.Add(this.ucDashboard1);
             this.panel3.Controls.Add(this.ucPurchaseOrder1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(222, 100);
+            this.panel3.Location = new System.Drawing.Point(203, 71);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(558, 350);
+            this.panel3.Size = new System.Drawing.Size(607, 398);
             this.panel3.TabIndex = 5;
             // 
             // button1
@@ -555,9 +555,9 @@
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(20, 450);
+            this.panel4.Location = new System.Drawing.Point(1, 469);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(760, 30);
+            this.panel4.Size = new System.Drawing.Size(809, 30);
             this.panel4.TabIndex = 6;
             // 
             // ucLogin1
@@ -565,7 +565,7 @@
             this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucLogin1.Location = new System.Drawing.Point(0, 0);
             this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(558, 350);
+            this.ucLogin1.Size = new System.Drawing.Size(607, 398);
             this.ucLogin1.TabIndex = 0;
             // 
             // ucDashboard1
@@ -587,7 +587,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.ClientSize = new System.Drawing.Size(811, 500);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlMenu);
@@ -597,7 +597,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
-            this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
+            this.Padding = new System.Windows.Forms.Padding(1);
             this.Text = "Main";
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
