@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCAddClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddClient.Designer.cs">
+      <DependentUpon>UCAddClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCAddOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +166,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCAddClient.resx">
+      <DependentUpon>UCAddClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCAddOrder.resx">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
     </EmbeddedResource>

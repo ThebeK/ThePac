@@ -15,7 +15,7 @@ namespace DesktopApp
     {
         int pw=200;
         bool hidden;
-        public frmMain()
+        public frmMain(bool activate)
         {
            // frmSplashScreen load = new frmSplashScreen();
             Thread t = new Thread(new ThreadStart(splash));
@@ -25,7 +25,7 @@ namespace DesktopApp
             InitializeComponent();
 
             t.Abort();
-
+            menuStrip2.Enabled = activate;
             menuStrip2.Size = new Size(60, 390);
             ordersToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             ordersToolStripMenuItem.Size = new Size(50, 50);
@@ -45,6 +45,21 @@ namespace DesktopApp
             pnlMenu.Width=60;
             pbxMenu.Location = new Point(12, 0);
             hidden = true;
+            
+            MainMenuStrip.Enabled = activate;
+            if (menuStrip2.Enabled==true)
+            {
+                loginToolStripMenuItem.Text = "Logout";
+                ucDashboard1.BringToFront();
+                ucDashboard1.Dock = DockStyle.Fill;
+                Label user = new Label();
+                panel4.Controls.Add(user);
+                user.Text = " logged in as admin";
+                user.BringToFront();
+                user.Dock = DockStyle.Right;
+                user.Font = new Font("Maiandra GD",10);
+            }
+            
             
         }
     
@@ -126,16 +141,7 @@ namespace DesktopApp
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (this.WindowState==FormWindowState.Normal)
-            {
-                this.WindowState = FormWindowState.Maximized;
-                pbxMaxNorm.Image = imlMaxNorm.Images[1];
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Normal;
-                pbxMaxNorm.Image = imlMaxNorm.Images[0];
-            }
+           
             
         }
 
@@ -188,6 +194,24 @@ namespace DesktopApp
             panel3.Controls.Add(Sale);
             Sale.BringToFront();
             Sale.Dock = DockStyle.Fill;
+        }
+
+        private void ucLogin1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addClientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCAddClient addClient = new UCAddClient();
+            panel3.Controls.Add(addClient);
+            addClient.BringToFront();
+            addClient.Dock = DockStyle.Fill;
         }
     }
 }
