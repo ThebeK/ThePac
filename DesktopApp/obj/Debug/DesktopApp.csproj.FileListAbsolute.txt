@@ -74,3 +74,12 @@ D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrders.resou
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCMakeSale.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCRefund.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.ucSuppBackOrder.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMakeSale.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRefund.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSale.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.ucSuppBackOrder.resources
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\QRCoder.dll
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\UnityEngine.dll
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\QRCoder.pdb
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPackageOrder.resources
