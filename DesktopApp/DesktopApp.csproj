@@ -75,6 +75,12 @@
     <Compile Include="UCAddOrder.Designer.cs">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucAddProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAddProduct.Designer.cs">
+      <DependentUpon>ucAddProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucBackOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCAddOrder.resx">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAddProduct.resx">
+      <DependentUpon>ucAddProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucBackOrder.resx">
       <DependentUpon>ucBackOrder.cs</DependentUpon>
