@@ -49,8 +49,8 @@
     
     <div style="text-align: right">
         <h1 style="text-align: center">Client Purchase Order</h1>
-        <button name="checkout" class="btn btn-success">Checkout</button>
-        <button name="cancel" class="btn btn-danger">Cancel</button>
+      <a href="Home.aspx" class="btn btn-danger">Cancel</a>
+            <a href="frmCheckout.aspx" class="btn btn-success">Checkout</a>
     </div>
 
     <div class="container">
@@ -64,7 +64,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -85,7 +85,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -106,7 +106,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -127,93 +127,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
-                        <ul>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <div>
-                            <b>Price: R0.00</b>
-                        </div>
-                        <div style="text-align: right">
-                            <b>Quantity
-                                <input type="number" name="quantity" min="0" /></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Product 1
-                    </div>
-                    <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
-                        <ul>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <div>
-                            <b>Price: R0.00</b>
-                        </div>
-                        <div style="text-align: right">
-                            <b>Quantity
-                                <input type="number" name="quantity" min="0" /></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Product 1
-                    </div>
-                    <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
-                        <ul>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <div>
-                            <b>Price: R0.00</b>
-                        </div>
-                        <div style="text-align: right">
-                            <b>Quantity
-                                <input type="number" name="quantity" min="0" /></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Product 1
-                    </div>
-                    <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
-                        <ul>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <div>
-                            <b>Price: R0.00</b>
-                        </div>
-                        <div style="text-align: right">
-                            <b>Quantity
-                                <input type="number" name="quantity" min="0" /></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Product 1
-                    </div>
-                    <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -236,7 +150,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -257,7 +171,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -278,7 +192,7 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>
@@ -299,7 +213,93 @@
                         Product 1
                     </div>
                     <div class="panel-body">
-                        <img src="Images/SmartPac.jpg" style="width: 100px;" />
+                        <img src="Images/NoImages.png" style="width: 100px;" />
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div>
+                            <b>Price: R0.00</b>
+                        </div>
+                        <div style="text-align: right">
+                            <b>Quantity
+                                <input type="number" name="quantity" min="0" /></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Product 1
+                    </div>
+                    <div class="panel-body">
+                        <img src="Images/NoImages.png" style="width: 100px;" />
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div>
+                            <b>Price: R0.00</b>
+                        </div>
+                        <div style="text-align: right">
+                            <b>Quantity
+                                <input type="number" name="quantity" min="0" /></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Product 1
+                    </div>
+                    <div class="panel-body">
+                        <img src="Images/NoImages.png" style="width: 100px;" />
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div>
+                            <b>Price: R0.00</b>
+                        </div>
+                        <div style="text-align: right">
+                            <b>Quantity
+                                <input type="number" name="quantity" min="0" /></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Product 1
+                    </div>
+                    <div class="panel-body">
+                        <img src="Images/NoImages.png" style="width: 100px;" />
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div>
+                            <b>Price: R0.00</b>
+                        </div>
+                        <div style="text-align: right">
+                            <b>Quantity
+                                <input type="number" name="quantity" min="0" /></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Product 1
+                    </div>
+                    <div class="panel-body">
+                        <img src="Images/NoImages.png" style="width: 100px;" />
                         <ul>
                         </ul>
                     </div>

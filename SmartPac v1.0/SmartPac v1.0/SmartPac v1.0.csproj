@@ -143,6 +143,7 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmCheckout.aspx" />
+    <Content Include="Images\NoImages.png" />
     <Content Include="Images\WhatsApp Image 2018-06-06 at 17.44.12.jpeg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
