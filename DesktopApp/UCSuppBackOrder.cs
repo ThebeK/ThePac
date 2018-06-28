@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCSuppBackOrder : UserControl
+    public partial class ucSuppBackOrder : UserControl
     {
-        public UCSuppBackOrder()
+        public ucSuppBackOrder()
         {
             InitializeComponent();
         }

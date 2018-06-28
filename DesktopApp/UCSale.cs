@@ -20,9 +20,9 @@ namespace DesktopApp
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             UCMakeSale makeSale = new UCMakeSale();
-            panel4.Controls.Add(makeSale);
+            this.panel4.Controls.Add(makeSale);
             makeSale.BringToFront();
-            makeSale.Dock = DockStyle.Bottom;
+            makeSale.Dock = DockStyle.Fill;
             
             
             
@@ -31,9 +31,9 @@ namespace DesktopApp
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             UCRefund RefundSale = new UCRefund();
-            panel4.Controls.Add(RefundSale);
+            this.panel4.Controls.Add(RefundSale);
             RefundSale.BringToFront();
-            RefundSale.Dock = DockStyle.Bottom;
+            RefundSale.Dock = DockStyle.Fill;
         }
     }
 }

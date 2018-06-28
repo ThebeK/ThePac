@@ -33,5 +33,13 @@ namespace DesktopApp
             viewOrder.BringToFront();
             viewOrder.Dock = DockStyle.Fill;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ucSuppBackOrder SuppOrder = new ucSuppBackOrder();
+            panel4.Controls.Add(SuppOrder);
+            SuppOrder.BringToFront();
+            SuppOrder.Dock = DockStyle.Fill;
+        }
     }
 }
