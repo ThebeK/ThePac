@@ -69,3 +69,4 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cach
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrders.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSuppAddOrder.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache

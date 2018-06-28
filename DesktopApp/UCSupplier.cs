@@ -25,5 +25,13 @@ namespace DesktopApp
             addOrder.Dock = DockStyle.Fill;
             
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            UCViewOrders ViewOrder = new UCViewOrders();
+            panel4.Controls.Add(ViewOrder);
+            ViewOrder.BringToFront();
+            ViewOrder.Dock = DockStyle.Fill;
+        }
     }
 }
