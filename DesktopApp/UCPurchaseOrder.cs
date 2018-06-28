@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace DesktopApp
 {
     public partial class UCPurchaseOrder : UserControl
@@ -54,6 +53,20 @@ namespace DesktopApp
             panel4.Controls.Add(ucConfirmDelivery1);
             ucConfirmDelivery1.BringToFront();
             ucConfirmDelivery1.Dock = DockStyle.Fill;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+            UCPackageOrder Package = new UCPackageOrder();
+            panel4.Controls.Add(Package);
+            Package.BringToFront();
+            Package.Dock = DockStyle.Fill;
         }
     }
 }

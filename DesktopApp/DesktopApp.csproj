@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="QRCoder">
+      <HintPath>..\..\QRCoder-master\QRCoderDemo\bin\Debug\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -107,6 +110,12 @@
     </Compile>
     <Compile Include="UCNull.Designer.cs">
       <DependentUpon>UCNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPackageOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPackageOrder.Designer.cs">
+      <DependentUpon>UCPackageOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="UCPurchaseOrder.cs">
       <SubType>UserControl</SubType>
@@ -189,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCNull.resx">
       <DependentUpon>UCNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPackageOrder.resx">
+      <DependentUpon>UCPackageOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
