@@ -102,6 +102,12 @@
     <Compile Include="UCPurchaseOrder.Designer.cs">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCSuppAddOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSuppAddOrder.Designer.cs">
+      <DependentUpon>UCSuppAddOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCSupplier.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSuppAddOrder.resx">
+      <DependentUpon>UCSuppAddOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCSupplier.resx">
       <DependentUpon>UCSupplier.cs</DependentUpon>
