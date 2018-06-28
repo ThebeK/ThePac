@@ -139,3 +139,4 @@ C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Helpers.xml
 C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Mvc.xml
 C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
 C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb
+C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
