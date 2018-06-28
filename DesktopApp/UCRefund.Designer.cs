@@ -45,18 +45,18 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Maiandra GD", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(448, 0);
+            this.label1.Location = new System.Drawing.Point(479, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 32);
+            this.label1.Size = new System.Drawing.Size(105, 32);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Credit Return";
+            this.label1.Text = "Refund";
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Location = new System.Drawing.Point(151, 64);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(139, 20);
@@ -64,7 +64,7 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(68, 64);
@@ -72,7 +72,6 @@
             this.label2.Size = new System.Drawing.Size(77, 14);
             this.label2.TabIndex = 17;
             this.label2.Text = "Order number:";
-            
             // 
             // label3
             // 
@@ -85,7 +84,7 @@
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.Location = new System.Drawing.Point(841, 471);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -95,7 +94,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Location = new System.Drawing.Point(71, 101);
             this.groupBox2.Name = "groupBox2";
@@ -114,7 +113,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox3.Controls.Add(this.dataGridView2);
             this.groupBox3.Location = new System.Drawing.Point(71, 272);
             this.groupBox3.Name = "groupBox3";
