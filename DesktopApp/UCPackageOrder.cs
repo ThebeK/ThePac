@@ -113,5 +113,49 @@ namespace DesktopApp
         {
             RenderQrCode();
         }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            // Displays a SaveFileDialog so the user can save the Image
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "Bitmap Image|*.bmp|PNG Image|*.png|JPeg Image|*.jpg|Gif Image|*.gif";
+            saveFileDialog1.Title = "Save an Image File";
+            saveFileDialog1.ShowDialog();
+
+            // If the file name is not an empty string open it for saving.
+            if (saveFileDialog1.FileName != "")
+            {
+                // Saves the Image via a FileStream created by the OpenFile method.
+                using (FileStream fs = (System.IO.FileStream)saveFileDialog1.OpenFile())
+                {
+                    // Saves the Image in the appropriate ImageFormat based upon the
+                    // File type selected in the dialog box.
+                    // NOTE that the FilterIndex property is one-based.
+
+                    ImageFormat imageFormat = null;
+                    switch (saveFileDialog1.FilterIndex)
+                    {
+                        case 1:
+                            imageFormat = ImageFormat.Bmp;
+                            break;
+                        case 2:
+                            imageFormat = ImageFormat.Png;
+                            break;
+                        case 3:
+                            imageFormat = ImageFormat.Jpeg;
+                            break;
+                        case 4:
+                            imageFormat = ImageFormat.Gif;
+                            break;
+                        default:
+                            throw new NotSupportedException("File extension is not supported");
+                    }
+
+                    pictureBoxQRCode.BackgroundImage.Save(fs, imageFormat);
+                    fs.Close();
+                }
+            }
+
+        }
     }
 }

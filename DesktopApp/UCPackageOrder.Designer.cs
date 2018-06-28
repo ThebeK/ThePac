@@ -147,6 +147,7 @@
             this.buttonSave.TabIndex = 11;
             this.buttonSave.Text = "Save QR code";
             this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // textBoxQRCode
             // 
