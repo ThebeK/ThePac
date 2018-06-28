@@ -249,6 +249,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UCAddOrder";
             this.Size = new System.Drawing.Size(1049, 481);
+            
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

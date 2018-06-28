@@ -90,6 +90,12 @@
     <Compile Include="UCLogin.Designer.cs">
       <DependentUpon>UCLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCMakeSale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMakeSale.Designer.cs">
+      <DependentUpon>UCMakeSale.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCNull.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +107,18 @@
     </Compile>
     <Compile Include="UCPurchaseOrder.Designer.cs">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCRefund.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRefund.Designer.cs">
+      <DependentUpon>UCRefund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCSale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSale.Designer.cs">
+      <DependentUpon>UCSale.cs</DependentUpon>
     </Compile>
     <Compile Include="UCSuppAddOrder.cs">
       <SubType>UserControl</SubType>
@@ -151,11 +169,20 @@
     <EmbeddedResource Include="UCLogin.resx">
       <DependentUpon>UCLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCMakeSale.resx">
+      <DependentUpon>UCMakeSale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCNull.resx">
       <DependentUpon>UCNull.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRefund.resx">
+      <DependentUpon>UCRefund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSale.resx">
+      <DependentUpon>UCSale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCSuppAddOrder.resx">
       <DependentUpon>UCSuppAddOrder.cs</DependentUpon>

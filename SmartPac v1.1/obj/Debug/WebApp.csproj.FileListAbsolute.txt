@@ -139,3 +139,51 @@ C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Helpers.xml
 C:\VS\SmartPac repo\SmartPac v1.1\bin\System.Web.Mvc.xml
 C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
 C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\ApplicationInsights.config
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\csc.exe
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\vbc.exe
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\VBCSCompiler.exe
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\SmartPac v1.1.dll.config
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\SmartPac v1.1.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\SmartPac v1.1.pdb
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\MetroFramework.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\MetroFramework.Fonts.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.DependencyCollector.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.Web.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.WindowsServer.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.ApplicationInsights.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.Web.Infrastructure.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Helpers.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Mvc.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Razor.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.Deployment.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.Razor.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.DependencyCollector.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.Web.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.AI.WindowsServer.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.ApplicationInsights.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Razor.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.Deployment.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Webpages.Razor.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Helpers.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Mvc.xml
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
+D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb

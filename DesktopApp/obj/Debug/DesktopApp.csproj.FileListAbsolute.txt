@@ -35,11 +35,9 @@ D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\DesktopApp.exe.config
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.exe
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.pdb
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.frmCreditReturn.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.frmSplashScreen.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.SplashScreen.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddOrder.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.ucBackOrder.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCConfirmDelivery.resources
@@ -69,3 +67,9 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cach
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrders.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSuppAddOrder.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCSale.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCSuppAddOrder.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrders.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCMakeSale.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCRefund.resources
