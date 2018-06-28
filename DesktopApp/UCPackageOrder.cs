@@ -157,5 +157,10 @@ namespace DesktopApp
             }
 
         }
+
+        private void textBoxQRCode_TextChanged_1(object sender, EventArgs e)
+        {
+            RenderQrCode();
+        }
     }
 }

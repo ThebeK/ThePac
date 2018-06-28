@@ -60,9 +60,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
-            this.ucLogin1 = new DesktopApp.UCLogin();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.purchaseOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,6 +76,9 @@
             this.maintainSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbxMenu = new System.Windows.Forms.PictureBox();
+            this.ucLogin1 = new DesktopApp.UCLogin();
+            this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -255,12 +255,14 @@
             this.notificationToolStripMenuItem.Name = "notificationToolStripMenuItem";
             this.notificationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.notificationToolStripMenuItem.Text = "Notification";
+            this.notificationToolStripMenuItem.Click += new System.EventHandler(this.notificationToolStripMenuItem_Click);
             // 
             // updateCompanyInformationToolStripMenuItem
             // 
             this.updateCompanyInformationToolStripMenuItem.Name = "updateCompanyInformationToolStripMenuItem";
             this.updateCompanyInformationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.updateCompanyInformationToolStripMenuItem.Text = "Update Company Information";
+            this.updateCompanyInformationToolStripMenuItem.Click += new System.EventHandler(this.updateCompanyInformationToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -335,30 +337,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(809, 30);
             this.panel4.TabIndex = 6;
-            // 
-            // ucLogin1
-            // 
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(607, 438);
-            this.ucLogin1.TabIndex = 0;
-            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // dashboardToolStripMenuItem
             // 
@@ -515,10 +493,36 @@
             this.pbxMenu.TabStop = false;
             this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
             // 
+            // ucLogin1
+            // 
+            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(607, 438);
+            this.ucLogin1.TabIndex = 0;
+            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
+            // 
+            // ucPurchaseOrder1
+            // 
+            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
+            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
+            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
+            this.ucPurchaseOrder1.TabIndex = 2;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(811, 500);
             this.Controls.Add(this.panel3);

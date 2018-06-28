@@ -93,6 +93,12 @@
     <Compile Include="UCDashboard.Designer.cs">
       <DependentUpon>UCDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCLoadForDelivery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCLoadForDelivery.Designer.cs">
+      <DependentUpon>UCLoadForDelivery.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     </Compile>
     <Compile Include="UCMakeSale.Designer.cs">
       <DependentUpon>UCMakeSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCNotification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNotification.Designer.cs">
+      <DependentUpon>UCNotification.cs</DependentUpon>
     </Compile>
     <Compile Include="UCNull.cs">
       <SubType>UserControl</SubType>
@@ -153,6 +165,12 @@
     <Compile Include="UCSupplier.Designer.cs">
       <DependentUpon>UCSupplier.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCUpdateCompanyInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUpdateCompanyInfo.Designer.cs">
+      <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCViewOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -190,11 +208,17 @@
     <EmbeddedResource Include="UCDashboard.resx">
       <DependentUpon>UCDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCLoadForDelivery.resx">
+      <DependentUpon>UCLoadForDelivery.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCLogin.resx">
       <DependentUpon>UCLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMakeSale.resx">
       <DependentUpon>UCMakeSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNotification.resx">
+      <DependentUpon>UCNotification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCNull.resx">
       <DependentUpon>UCNull.cs</DependentUpon>
@@ -219,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCSupplier.resx">
       <DependentUpon>UCSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUpdateCompanyInfo.resx">
+      <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCViewOrders.resx">
       <DependentUpon>UCViewOrders.cs</DependentUpon>

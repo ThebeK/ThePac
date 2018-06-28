@@ -213,5 +213,21 @@ namespace DesktopApp
             addClient.BringToFront();
             addClient.Dock = DockStyle.Fill;
         }
+
+        private void notificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCNotification notification = new UCNotification();
+            panel3.Controls.Add(notification);
+            notification.BringToFront();
+            notification.Dock = DockStyle.Fill;
+        }
+
+        private void updateCompanyInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCUpdateCompanyInfo CompanyInfo = new UCUpdateCompanyInfo();
+            panel3.Controls.Add(CompanyInfo);
+            CompanyInfo.BringToFront();
+            CompanyInfo.Dock = DockStyle.Fill;
+        }
     }
 }
