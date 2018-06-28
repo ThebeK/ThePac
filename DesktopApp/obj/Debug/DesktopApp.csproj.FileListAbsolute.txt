@@ -73,3 +73,7 @@ D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resourc
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrders.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCMakeSale.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCRefund.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMakeSale.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRefund.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSale.resources
