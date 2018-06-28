@@ -28,10 +28,10 @@ namespace DesktopApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            UCViewOrders ViewOrder = new UCViewOrders();
-            panel4.Controls.Add(ViewOrder);
-            ViewOrder.BringToFront();
-            ViewOrder.Dock = DockStyle.Fill;
+            UCViewOrders viewOrder = new UCViewOrders();
+            panel4.Controls.Add(viewOrder);
+            viewOrder.BringToFront();
+            viewOrder.Dock = DockStyle.Fill;
         }
     }
 }

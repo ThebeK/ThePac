@@ -181,5 +181,13 @@ namespace DesktopApp
             ViewOrder.BringToFront();
             ViewOrder.Dock = DockStyle.Fill;
         }
+
+        private void saleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCSale Sale = new UCSale();
+            panel3.Controls.Add(Sale);
+            Sale.BringToFront();
+            Sale.Dock = DockStyle.Fill;
+        }
     }
 }

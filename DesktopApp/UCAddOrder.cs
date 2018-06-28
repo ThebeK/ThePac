@@ -12,9 +12,12 @@ namespace DesktopApp
 {
     public partial class UCAddOrder : UserControl
     {
+        
         public UCAddOrder()
-        {
-            InitializeComponent();
+        {   
+            InitializeComponent();   
         }
+
+        
     }
 }
