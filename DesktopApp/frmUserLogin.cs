@@ -216,7 +216,7 @@ namespace DesktopApp
 
         private void notificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCNotification notification = new UCNotification();
+            UCNotification1 notification = new UCNotification1();
             panel3.Controls.Add(notification);
             notification.BringToFront();
             notification.Dock = DockStyle.Fill;
@@ -228,6 +228,15 @@ namespace DesktopApp
             panel3.Controls.Add(CompanyInfo);
             CompanyInfo.BringToFront();
             CompanyInfo.Dock = DockStyle.Fill;
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            UCBackp Backup = new UCBackp();
+            panel3.Controls.Add(Backup);
+            Backup.BringToFront();
+            Backup.Dock = DockStyle.Fill;
         }
     }
 }
