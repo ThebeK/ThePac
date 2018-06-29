@@ -187,3 +187,4 @@ D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\bin\System.Web.Mvc.xml
 D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.dll
 D:\2K18\INF 370\SmartPac\Repo\SmartPac v1.1\obj\Debug\SmartPac v1.1.pdb
+C:\VS\SmartPac repo\SmartPac v1.1\obj\Debug\WebApp.csprojResolveAssemblyReference.cache

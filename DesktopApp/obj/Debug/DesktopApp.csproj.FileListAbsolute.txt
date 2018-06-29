@@ -83,8 +83,7 @@ C:\VS\SmartPac repo\DesktopApp\bin\Debug\QRCoder.dll
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\UnityEngine.dll
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\QRCoder.pdb
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPackageOrder.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\UnityEngine.dll
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\QRCoder.pdb
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCPackageOrder.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.ucAddProduct.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCLoadForDelivery.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInfo.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCNotification.resources

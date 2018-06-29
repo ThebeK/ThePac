@@ -54,7 +54,7 @@ namespace DesktopApp
                 ucDashboard1.Dock = DockStyle.Fill;
                 Label user = new Label();
                 panel4.Controls.Add(user);
-                user.Text = " admin";
+                user.Text = " logged in as admin";
                 user.BringToFront();
                 user.Dock = DockStyle.Right;
                 user.Font = new Font("Maiandra GD",10);
@@ -214,12 +214,20 @@ namespace DesktopApp
             addClient.Dock = DockStyle.Fill;
         }
 
-        private void addNewProductToolStripMenuItem_Click(object sender, EventArgs e)
+        private void notificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ucAddProduct addProduct = new ucAddProduct();
-            panel3.Controls.Add(addProduct);
-            addProduct.BringToFront();
-            addProduct.Dock = DockStyle.Fill;
+            UCNotification notification = new UCNotification();
+            panel3.Controls.Add(notification);
+            notification.BringToFront();
+            notification.Dock = DockStyle.Fill;
+        }
+
+        private void updateCompanyInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCUpdateCompanyInfo CompanyInfo = new UCUpdateCompanyInfo();
+            panel3.Controls.Add(CompanyInfo);
+            CompanyInfo.BringToFront();
+            CompanyInfo.Dock = DockStyle.Fill;
         }
     }
 }
