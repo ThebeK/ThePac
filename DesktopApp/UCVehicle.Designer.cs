@@ -58,7 +58,7 @@
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitter1.Location = new System.Drawing.Point(0, 0);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(768, 10);
+            this.splitter1.Size = new System.Drawing.Size(748, 10);
             this.splitter1.TabIndex = 7;
             this.splitter1.TabStop = false;
             // 
@@ -115,7 +115,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(768, 156);
+            this.panel1.Size = new System.Drawing.Size(748, 156);
             this.panel1.TabIndex = 4;
             // 
             // panel3
@@ -146,7 +146,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(768, 40);
+            this.panel5.Size = new System.Drawing.Size(748, 40);
             this.panel5.TabIndex = 5;
             // 
             // pictureBox3
@@ -164,7 +164,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(267, 3);
+            this.lblTitle.Location = new System.Drawing.Point(344, 0);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(106, 32);
             this.lblTitle.TabIndex = 5;
@@ -178,7 +178,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 156);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(768, 350);
+            this.panel4.Size = new System.Drawing.Size(748, 310);
             this.panel4.TabIndex = 5;
             // 
             // panel6
@@ -186,7 +186,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 10);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(768, 340);
+            this.panel6.Size = new System.Drawing.Size(748, 300);
             this.panel6.TabIndex = 8;
             // 
             // UCVehicle
@@ -196,7 +196,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Name = "UCVehicle";
-            this.Size = new System.Drawing.Size(768, 506);
+            this.Size = new System.Drawing.Size(748, 466);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
