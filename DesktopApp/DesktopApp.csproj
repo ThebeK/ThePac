@@ -102,10 +102,10 @@
     <Compile Include="UCPublishNotifTemplate.Designer.cs">
       <DependentUpon>UCPublishNotifTemplate.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCAddOrder.cs">
+    <Compile Include="UCAddOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCAddOrder.Designer.cs">
+    <Compile Include="UCAddOrder.Designer.cs">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="ucAddProduct.cs">
@@ -114,16 +114,16 @@
     <Compile Include="ucAddProduct.Designer.cs">
       <DependentUpon>ucAddProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\ucBackOrder.cs">
+    <Compile Include="ucBackOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\ucBackOrder.Designer.cs">
+    <Compile Include="ucBackOrder.Designer.cs">
       <DependentUpon>ucBackOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCConfirmDelivery.cs">
+    <Compile Include="UCConfirmDelivery.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCConfirmDelivery.Designer.cs">
+    <Compile Include="UCConfirmDelivery.Designer.cs">
       <DependentUpon>UCConfirmDelivery.cs</DependentUpon>
     </Compile>
     <Compile Include="UCCreateTemplate.cs">
@@ -138,10 +138,10 @@
     <Compile Include="UCDashboard.Designer.cs">
       <DependentUpon>UCDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCLoadForDelivery.cs">
+    <Compile Include="UCLoadForDelivery.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCLoadForDelivery.Designer.cs">
+    <Compile Include="UCLoadForDelivery.Designer.cs">
       <DependentUpon>UCLoadForDelivery.cs</DependentUpon>
     </Compile>
     <Compile Include="UCLogin.cs">
@@ -156,16 +156,16 @@
     <Compile Include="UCMakeSale.Designer.cs">
       <DependentUpon>UCMakeSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCNull.cs">
+    <Compile Include="UCNull.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCNull.Designer.cs">
+    <Compile Include="UCNull.Designer.cs">
       <DependentUpon>UCNull.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCPackageOrder.cs">
+    <Compile Include="UCPackageOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCPackageOrder.Designer.cs">
+    <Compile Include="UCPackageOrder.Designer.cs">
       <DependentUpon>UCPackageOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="UCPublicTemplate.cs">
@@ -174,10 +174,10 @@
     <Compile Include="UCPublicTemplate.Designer.cs">
       <DependentUpon>UCPublicTemplate.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCOrder\UCPurchaseOrder.cs">
+    <Compile Include="UCPurchaseOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCOrder\UCPurchaseOrder.Designer.cs">
+    <Compile Include="UCPurchaseOrder.Designer.cs">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="UCRefund.cs">
@@ -274,16 +274,16 @@
     <EmbeddedResource Include="UCPublishNotifTemplate.resx">
       <DependentUpon>UCPublishNotifTemplate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCAddOrder.resx">
+    <EmbeddedResource Include="UCAddOrder.resx">
       <DependentUpon>UCAddOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucAddProduct.resx">
       <DependentUpon>ucAddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\ucBackOrder.resx">
+    <EmbeddedResource Include="ucBackOrder.resx">
       <DependentUpon>ucBackOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCConfirmDelivery.resx">
+    <EmbeddedResource Include="UCConfirmDelivery.resx">
       <DependentUpon>UCConfirmDelivery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCCreateTemplate.resx">
@@ -292,7 +292,7 @@
     <EmbeddedResource Include="UCDashboard.resx">
       <DependentUpon>UCDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCLoadForDelivery.resx">
+    <EmbeddedResource Include="UCLoadForDelivery.resx">
       <DependentUpon>UCLoadForDelivery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCLogin.resx">
@@ -301,16 +301,16 @@
     <EmbeddedResource Include="UCMakeSale.resx">
       <DependentUpon>UCMakeSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCNull.resx">
+    <EmbeddedResource Include="UCNull.resx">
       <DependentUpon>UCNull.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCPackageOrder.resx">
+    <EmbeddedResource Include="UCPackageOrder.resx">
       <DependentUpon>UCPackageOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPublicTemplate.resx">
       <DependentUpon>UCPublicTemplate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCOrder\UCPurchaseOrder.resx">
+    <EmbeddedResource Include="UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCRefund.resx">
@@ -354,14 +354,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="UCOrder\App.config" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2018-03-08 at 21.18.15.jpeg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UCNotification\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
