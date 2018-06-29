@@ -34,7 +34,6 @@ C:\Users\Thabang Monyamane\Source\Repo1\DesktopApp\obj\Debug\DesktopApp.frmSplas
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\DesktopApp.exe.config
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.exe
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.pdb
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.frmSplashScreen.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.frmMain.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
@@ -87,8 +86,6 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCLoadForDelivery.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInfo.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCNotification.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\UnityEngine.dll
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\QRCoder.pdb
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.ucAddProduct.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCLoadForDelivery.resources
