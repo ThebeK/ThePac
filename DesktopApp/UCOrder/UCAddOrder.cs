@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCNotification : UserControl
+    public partial class UCAddOrder : UserControl
     {
-        public UCNotification()
-        {
-            InitializeComponent();
+        
+        public UCAddOrder()
+        {   
+            InitializeComponent();   
         }
+
+        
     }
 }
