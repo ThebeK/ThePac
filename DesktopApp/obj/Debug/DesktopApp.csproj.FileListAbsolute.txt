@@ -86,12 +86,9 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPackageOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCLoadForDelivery.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInfo.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\UnityEngine.dll
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\QRCoder.pdb
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddClient.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.ucAddProduct.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCLoadForDelivery.resources
-D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCNotification.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCPackageOrder.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInfo.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
@@ -121,3 +118,25 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPublicTemplate.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\SmartPac v1.1.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.Mvc.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.Razor.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.Razor.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\SmartPac v1.1.pdb
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.Mvc.xml
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.Razor.xml
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.Razor.xml
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.xml
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddVehicle.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCBackp.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainTemplateFields.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCNotification1.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCNotification.UCPublishNotifTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCCreateTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCPublicTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCVehicle.resources

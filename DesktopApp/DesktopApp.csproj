@@ -78,6 +78,12 @@
     <Compile Include="UCAddClient.Designer.cs">
       <DependentUpon>UCAddClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCAddVehicle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddVehicle.Designer.cs">
+      <DependentUpon>UCAddVehicle.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCBackp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -234,6 +240,12 @@
     <Compile Include="UCUserAccessLevel.Designer.cs">
       <DependentUpon>UCUserAccessLevel.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCVehicle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCVehicle.Designer.cs">
+      <DependentUpon>UCVehicle.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCViewOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -261,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCAddClient.resx">
       <DependentUpon>UCAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAddVehicle.resx">
+      <DependentUpon>UCAddVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCBackp.resx">
       <DependentUpon>UCBackp.cs</DependentUpon>
@@ -339,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCUserAccessLevel.resx">
       <DependentUpon>UCUserAccessLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCVehicle.resx">
+      <DependentUpon>UCVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCViewOrders.resx">
       <DependentUpon>UCViewOrders.cs</DependentUpon>
