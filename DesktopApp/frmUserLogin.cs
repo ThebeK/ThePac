@@ -229,5 +229,13 @@ namespace DesktopApp
             CompanyInfo.BringToFront();
             CompanyInfo.Dock = DockStyle.Fill;
         }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCUserAccessLevel U_AL = new UCUserAccessLevel();
+            panel3.Controls.Add(U_AL);
+            U_AL.BringToFront();
+            U_AL.Dock = DockStyle.Fill;
+        }
     }
 }

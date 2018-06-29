@@ -63,6 +63,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCAddAccessLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddAccessLevel.Designer.cs">
+      <DependentUpon>UCAddAccessLevel.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCAddClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -177,6 +183,18 @@
     <Compile Include="UCUpdateCompanyInfo.Designer.cs">
       <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUser.Designer.cs">
+      <DependentUpon>UCUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUserAccessLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserAccessLevel.Designer.cs">
+      <DependentUpon>UCUserAccessLevel.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCViewOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -199,6 +217,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCAddAccessLevel.resx">
+      <DependentUpon>UCAddAccessLevel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCAddClient.resx">
       <DependentUpon>UCAddClient.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +276,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCUpdateCompanyInfo.resx">
       <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUser.resx">
+      <DependentUpon>UCUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserAccessLevel.resx">
+      <DependentUpon>UCUserAccessLevel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCViewOrders.resx">
       <DependentUpon>UCViewOrders.cs</DependentUpon>
