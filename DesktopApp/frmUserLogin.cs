@@ -237,5 +237,13 @@ namespace DesktopApp
             U_AL.BringToFront();
             U_AL.Dock = DockStyle.Fill;
         }
+
+        private void vehicleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCVehicle vehicle = new UCVehicle();
+            panel3.Controls.Add(vehicle);
+            vehicle.BringToFront();
+            vehicle.Dock = DockStyle.Fill;
+        }
     }
 }

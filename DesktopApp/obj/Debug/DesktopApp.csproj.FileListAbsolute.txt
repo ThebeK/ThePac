@@ -98,3 +98,6 @@ D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInf
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddAccessLevel.resources
 D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddEmployee.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCAddVehicle.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCVehicle.resources
