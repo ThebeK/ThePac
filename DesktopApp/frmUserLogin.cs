@@ -240,10 +240,28 @@ namespace DesktopApp
 
         private void vehicleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCVehicle vehicle = new UCVehicle();
-            panel3.Controls.Add(vehicle);
-            vehicle.BringToFront();
-            vehicle.Dock = DockStyle.Fill;
+           
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            UCDatabaseSettings DatabaseSettings = new UCDatabaseSettings();
+            this.panel3.Controls.Add(DatabaseSettings);
+            DatabaseSettings.BringToFront();
+            DatabaseSettings.Dock = DockStyle.Fill;
+
+            
+
+        }
+
+        private void restoreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            UCRestore Restore = new UCRestore();
+            panel3.Controls.Add(Restore);
+            Restore.BringToFront();
+            Restore.Dock = DockStyle.Fill;
         }
     }
 }

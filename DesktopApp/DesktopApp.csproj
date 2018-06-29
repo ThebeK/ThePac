@@ -84,6 +84,12 @@
     <Compile Include="UCBackp.Designer.cs">
       <DependentUpon>UCBackp.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCDatabaseSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDatabaseSettings.Designer.cs">
+      <DependentUpon>UCDatabaseSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCMaintainTemplateFields.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -264,6 +270,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCBackp.resx">
       <DependentUpon>UCBackp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDatabaseSettings.resx">
+      <DependentUpon>UCDatabaseSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainTemplateFields.resx">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>

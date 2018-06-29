@@ -121,3 +121,4 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPublicTemplate.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCDatabaseSettings.resources
