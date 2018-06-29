@@ -263,5 +263,14 @@ namespace DesktopApp
             Restore.BringToFront();
             Restore.Dock = DockStyle.Fill;
         }
+
+        private void productToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            UCProduct product = new UCProduct();
+            panel3.Controls.Add(product);
+            product.BringToFront();
+            product.Dock = DockStyle.Fill;
+        }
     }
 }

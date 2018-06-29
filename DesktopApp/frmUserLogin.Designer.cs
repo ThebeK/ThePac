@@ -41,8 +41,6 @@
             this.addClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addNewProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maintainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,12 +65,12 @@
             this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ucLogin1 = new DesktopApp.UCLogin();
             this.button1 = new System.Windows.Forms.Button();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
+            this.ucLogin1 = new DesktopApp.UCLogin();
+            this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -190,9 +188,6 @@
             // 
             // productToolStripMenuItem
             // 
-            this.productToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addNewProductToolStripMenuItem,
-            this.maintainToolStripMenuItem});
             this.productToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("productToolStripMenuItem.Image")));
             this.productToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.productToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -200,18 +195,7 @@
             this.productToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
             this.productToolStripMenuItem.Text = "Product";
             this.productToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // addNewProductToolStripMenuItem
-            // 
-            this.addNewProductToolStripMenuItem.Name = "addNewProductToolStripMenuItem";
-            this.addNewProductToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
-            this.addNewProductToolStripMenuItem.Text = "Add Product";
-            // 
-            // maintainToolStripMenuItem
-            // 
-            this.maintainToolStripMenuItem.Name = "maintainToolStripMenuItem";
-            this.maintainToolStripMenuItem.Size = new System.Drawing.Size(307, 36);
-            this.maintainToolStripMenuItem.Text = "Maintain Product";
+            this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
             // 
             // supplierToolStripMenuItem
             // 
@@ -415,16 +399,6 @@
             this.panel3.Size = new System.Drawing.Size(623, 428);
             this.panel3.TabIndex = 5;
             // 
-            // ucLogin1
-            // 
-            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
-            this.ucLogin1.TabIndex = 0;
-            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(383, 54);
@@ -433,21 +407,6 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // imlMaxNorm
             // 
@@ -463,6 +422,31 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(825, 30);
             this.panel4.TabIndex = 6;
+            // 
+            // ucLogin1
+            // 
+            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
+            this.ucLogin1.TabIndex = 0;
+            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
+            // 
+            // ucPurchaseOrder1
+            // 
+            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
+            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
+            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
+            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // frmMain
             // 
@@ -523,8 +507,6 @@
         private System.Windows.Forms.ToolStripMenuItem supplierOrderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addClientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainProductToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addNewProductToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem maintainToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addEmployeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainEmployeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notificationToolStripMenuItem;
