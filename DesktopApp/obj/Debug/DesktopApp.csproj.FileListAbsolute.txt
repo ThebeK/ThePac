@@ -121,3 +121,10 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCPublicTemplate.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCBackp.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainTemplateFields.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCNotification1.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCNotification.UCPublishNotifTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCCreateTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCPublicTemplate.resources
+D:\2K18\INF 370\SmartPac\Repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
