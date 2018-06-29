@@ -216,15 +216,10 @@ namespace DesktopApp
 
         private void notificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCNotification1 Notification = new UCNotification1();
-            this.panel3.Controls.Add(Notification);
-            Notification.BringToFront();
-            Notification.Dock = DockStyle.Fill;
-
-            UCPublicTemplate Publish = new UCPublicTemplate();
-            Notification.panel4.Controls.Add(Publish);
-            Publish.BringToFront();
-            Publish.Dock = DockStyle.Fill;
+            UCNotification1 notification = new UCNotification1();
+            panel3.Controls.Add(notification);
+            notification.BringToFront();
+            notification.Dock = DockStyle.Fill;
         }
 
         private void updateCompanyInformationToolStripMenuItem_Click(object sender, EventArgs e)
@@ -243,20 +238,12 @@ namespace DesktopApp
             U_AL.Dock = DockStyle.Fill;
         }
 
-        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        private void vehicleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCBackp Backup = new UCBackp();
-            panel3.Controls.Add(Backup);
-            Backup.BringToFront();
-            Backup.Dock = DockStyle.Fill;
-        }
-
-        private void restoreToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            UCRestore Restore = new UCRestore();
-            panel3.Controls.Add(Restore);
-            Restore.BringToFront();
-            Restore.Dock = DockStyle.Fill;
+            UCVehicle vehicle = new UCVehicle();
+            panel3.Controls.Add(vehicle);
+            vehicle.BringToFront();
+            vehicle.Dock = DockStyle.Fill;
         }
     }
 }
