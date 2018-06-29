@@ -32,32 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.tmrSlide = new System.Windows.Forms.Timer(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maintainEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateCompanyInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.restoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.ucLogin1 = new DesktopApp.UCLogin();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.purchaseOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,14 +47,39 @@
             this.addSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.pbxMenu = new System.Windows.Forms.PictureBox();
+            this.tmrSlide = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maintainEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateCompanyInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.ucLogin1 = new DesktopApp.UCLogin();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
+            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenu
@@ -112,216 +111,6 @@
             this.menuStrip2.Size = new System.Drawing.Size(187, 428);
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip2";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.pbxMenu);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(202, 40);
-            this.panel5.TabIndex = 4;
-            // 
-            // tmrSlide
-            // 
-            this.tmrSlide.Interval = 30;
-            this.tmrSlide.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.menuStrip1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(203, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(623, 40);
-            this.panel1.TabIndex = 4;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem,
-            this.optionsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(623, 40);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // loginToolStripMenuItem
-            // 
-            this.loginToolStripMenuItem.AutoSize = false;
-            this.loginToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(74, 36);
-            this.loginToolStripMenuItem.Text = "Login";
-            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
-            // 
-            // optionsToolStripMenuItem
-            // 
-            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.userToolStripMenuItem,
-            this.employeeToolStripMenuItem,
-            this.adminToolStripMenuItem,
-            this.vehicleToolStripMenuItem});
-            this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(94, 36);
-            this.optionsToolStripMenuItem.Text = "Options";
-            // 
-            // userToolStripMenuItem
-            // 
-            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
-            this.userToolStripMenuItem.Text = "User and Access Level";
-            this.userToolStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
-            // 
-            // employeeToolStripMenuItem
-            // 
-            this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addEmployeeToolStripMenuItem,
-            this.maintainEmployeeToolStripMenuItem});
-            this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
-            this.employeeToolStripMenuItem.Text = "Employee";
-            // 
-            // addEmployeeToolStripMenuItem
-            // 
-            this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
-            this.addEmployeeToolStripMenuItem.Text = "Add Employee";
-            // 
-            // maintainEmployeeToolStripMenuItem
-            // 
-            this.maintainEmployeeToolStripMenuItem.Name = "maintainEmployeeToolStripMenuItem";
-            this.maintainEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
-            this.maintainEmployeeToolStripMenuItem.Text = "Maintain Employee";
-            // 
-            // adminToolStripMenuItem
-            // 
-            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.notificationToolStripMenuItem,
-            this.updateCompanyInformationToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.backupToolStripMenuItem,
-            this.restoreToolStripMenuItem});
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
-            this.adminToolStripMenuItem.Text = "Admin";
-            // 
-            // notificationToolStripMenuItem
-            // 
-            this.notificationToolStripMenuItem.Name = "notificationToolStripMenuItem";
-            this.notificationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
-            this.notificationToolStripMenuItem.Text = "Notification";
-            this.notificationToolStripMenuItem.Click += new System.EventHandler(this.notificationToolStripMenuItem_Click);
-            // 
-            // updateCompanyInformationToolStripMenuItem
-            // 
-            this.updateCompanyInformationToolStripMenuItem.Name = "updateCompanyInformationToolStripMenuItem";
-            this.updateCompanyInformationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
-            this.updateCompanyInformationToolStripMenuItem.Text = "Update Company Information";
-            this.updateCompanyInformationToolStripMenuItem.Click += new System.EventHandler(this.updateCompanyInformationToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(346, 6);
-            // 
-            // backupToolStripMenuItem
-            // 
-            this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
-            this.backupToolStripMenuItem.Text = "Backup";
-            // 
-            // restoreToolStripMenuItem
-            // 
-            this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
-            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
-            this.restoreToolStripMenuItem.Text = "Restore";
-            // 
-            // vehicleToolStripMenuItem
-            // 
-            this.vehicleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addVehicleToolStripMenuItem,
-            this.maintainVehicleToolStripMenuItem});
-            this.vehicleToolStripMenuItem.Name = "vehicleToolStripMenuItem";
-            this.vehicleToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
-            this.vehicleToolStripMenuItem.Text = "Vehicle";
-            this.vehicleToolStripMenuItem.Click += new System.EventHandler(this.vehicleToolStripMenuItem_Click);
-            // 
-            // addVehicleToolStripMenuItem
-            // 
-            this.addVehicleToolStripMenuItem.Name = "addVehicleToolStripMenuItem";
-            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
-            this.addVehicleToolStripMenuItem.Text = "Add Vehicle";
-            // 
-            // maintainVehicleToolStripMenuItem
-            // 
-            this.maintainVehicleToolStripMenuItem.Name = "maintainVehicleToolStripMenuItem";
-            this.maintainVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
-            this.maintainVehicleToolStripMenuItem.Text = "Maintain Vehicle";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.ucLogin1);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.ucDashboard1);
-            this.panel3.Controls.Add(this.ucPurchaseOrder1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(203, 41);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(623, 428);
-            this.panel3.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(383, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // imlMaxNorm
-            // 
-            this.imlMaxNorm.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlMaxNorm.ImageStream")));
-            this.imlMaxNorm.TransparentColor = System.Drawing.Color.Transparent;
-            this.imlMaxNorm.Images.SetKeyName(0, "Maximise.png");
-            this.imlMaxNorm.Images.SetKeyName(1, "Normal.png");
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(1, 469);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(825, 30);
-            this.panel4.TabIndex = 6;
-            // 
-            // ucLogin1
-            // 
-            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
-            this.ucLogin1.TabIndex = 0;
-            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // dashboardToolStripMenuItem
             // 
@@ -459,6 +248,15 @@
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.pbxMenu);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(202, 40);
+            this.panel5.TabIndex = 4;
+            // 
             // pbxMenu
             // 
             this.pbxMenu.BackColor = System.Drawing.Color.LightSkyBlue;
@@ -470,6 +268,201 @@
             this.pbxMenu.TabIndex = 1;
             this.pbxMenu.TabStop = false;
             this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
+            // 
+            // tmrSlide
+            // 
+            this.tmrSlide.Interval = 30;
+            this.tmrSlide.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.menuStrip1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(203, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(623, 40);
+            this.panel1.TabIndex = 4;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loginToolStripMenuItem,
+            this.optionsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(623, 40);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // loginToolStripMenuItem
+            // 
+            this.loginToolStripMenuItem.AutoSize = false;
+            this.loginToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(74, 36);
+            this.loginToolStripMenuItem.Text = "Login";
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.userToolStripMenuItem,
+            this.employeeToolStripMenuItem,
+            this.adminToolStripMenuItem,
+            this.vehicleToolStripMenuItem});
+            this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(94, 36);
+            this.optionsToolStripMenuItem.Text = "Options";
+            // 
+            // userToolStripMenuItem
+            // 
+            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
+            this.userToolStripMenuItem.Text = "User and Access Level";
+            this.userToolStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
+            // 
+            // employeeToolStripMenuItem
+            // 
+            this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addEmployeeToolStripMenuItem,
+            this.maintainEmployeeToolStripMenuItem});
+            this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
+            this.employeeToolStripMenuItem.Text = "Employee";
+            // 
+            // addEmployeeToolStripMenuItem
+            // 
+            this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
+            this.addEmployeeToolStripMenuItem.Text = "Add Employee";
+            // 
+            // maintainEmployeeToolStripMenuItem
+            // 
+            this.maintainEmployeeToolStripMenuItem.Name = "maintainEmployeeToolStripMenuItem";
+            this.maintainEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
+            this.maintainEmployeeToolStripMenuItem.Text = "Maintain Employee";
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.notificationToolStripMenuItem,
+            this.updateCompanyInformationToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.backupToolStripMenuItem});
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
+            this.adminToolStripMenuItem.Text = "Admin";
+            // 
+            // notificationToolStripMenuItem
+            // 
+            this.notificationToolStripMenuItem.Name = "notificationToolStripMenuItem";
+            this.notificationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
+            this.notificationToolStripMenuItem.Text = "Notification";
+            this.notificationToolStripMenuItem.Click += new System.EventHandler(this.notificationToolStripMenuItem_Click);
+            // 
+            // updateCompanyInformationToolStripMenuItem
+            // 
+            this.updateCompanyInformationToolStripMenuItem.Name = "updateCompanyInformationToolStripMenuItem";
+            this.updateCompanyInformationToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
+            this.updateCompanyInformationToolStripMenuItem.Text = "Update Company Information";
+            this.updateCompanyInformationToolStripMenuItem.Click += new System.EventHandler(this.updateCompanyInformationToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(346, 6);
+            // 
+            // backupToolStripMenuItem
+            // 
+            this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
+            this.backupToolStripMenuItem.Text = "Database Settings";
+            this.backupToolStripMenuItem.Click += new System.EventHandler(this.backupToolStripMenuItem_Click);
+            // 
+            // vehicleToolStripMenuItem
+            // 
+            this.vehicleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addVehicleToolStripMenuItem,
+            this.maintainVehicleToolStripMenuItem});
+            this.vehicleToolStripMenuItem.Name = "vehicleToolStripMenuItem";
+            this.vehicleToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
+            this.vehicleToolStripMenuItem.Text = "Vehicle";
+            this.vehicleToolStripMenuItem.Click += new System.EventHandler(this.vehicleToolStripMenuItem_Click);
+            // 
+            // addVehicleToolStripMenuItem
+            // 
+            this.addVehicleToolStripMenuItem.Name = "addVehicleToolStripMenuItem";
+            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
+            this.addVehicleToolStripMenuItem.Text = "Add Vehicle";
+            // 
+            // maintainVehicleToolStripMenuItem
+            // 
+            this.maintainVehicleToolStripMenuItem.Name = "maintainVehicleToolStripMenuItem";
+            this.maintainVehicleToolStripMenuItem.Size = new System.Drawing.Size(235, 28);
+            this.maintainVehicleToolStripMenuItem.Text = "Maintain Vehicle";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.ucLogin1);
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.ucDashboard1);
+            this.panel3.Controls.Add(this.ucPurchaseOrder1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(203, 41);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(623, 428);
+            this.panel3.TabIndex = 5;
+            // 
+            // ucLogin1
+            // 
+            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
+            this.ucLogin1.TabIndex = 0;
+            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(383, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
+            // 
+            // ucPurchaseOrder1
+            // 
+            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
+            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
+            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
+            this.ucPurchaseOrder1.TabIndex = 2;
+            // 
+            // imlMaxNorm
+            // 
+            this.imlMaxNorm.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlMaxNorm.ImageStream")));
+            this.imlMaxNorm.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlMaxNorm.Images.SetKeyName(0, "Maximise.png");
+            this.imlMaxNorm.Images.SetKeyName(1, "Normal.png");
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(1, 469);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(825, 30);
+            this.panel4.TabIndex = 6;
             // 
             // frmMain
             // 
@@ -491,11 +484,11 @@
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -538,7 +531,6 @@
         private System.Windows.Forms.ToolStripMenuItem updateCompanyInformationToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem restoreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addVehicleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainVehicleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addSupplierToolStripMenuItem;
