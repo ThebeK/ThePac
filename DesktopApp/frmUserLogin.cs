@@ -50,8 +50,8 @@ namespace DesktopApp
             if (menuStrip2.Enabled==true)
             {
                 loginToolStripMenuItem.Text = "Logout";
-                //ucDashboard1.BringToFront();
-                //ucDashboard1.Dock = DockStyle.Fill;
+                ucDashboard1.BringToFront();
+                ucDashboard1.Dock = DockStyle.Fill;
                 Label user = new Label();
                 panel4.Controls.Add(user);
                 user.Text = " logged in as admin";
@@ -264,12 +264,13 @@ namespace DesktopApp
             Restore.Dock = DockStyle.Fill;
         }
 
-        private void employeeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void productToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCEmployee AddEmployee = new UCEmployee();
-            panel3.Controls.Add(AddEmployee);
-            AddEmployee.BringToFront();
-            AddEmployee.Dock = DockStyle.Fill;
+
+            UCProduct product = new UCProduct();
+            panel3.Controls.Add(product);
+            product.BringToFront();
+            product.Dock = DockStyle.Fill;
         }
     }
 }

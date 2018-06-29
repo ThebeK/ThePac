@@ -126,6 +126,12 @@
     <Compile Include="UCNotification1.Designer.cs">
       <DependentUpon>UCNotification1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCProduct.Designer.cs">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCPublishNotifTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -321,6 +327,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCNotification1.resx">
       <DependentUpon>UCNotification1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCProduct.resx">
+      <DependentUpon>UCProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPublishNotifTemplate.resx">
       <DependentUpon>UCPublishNotifTemplate.cs</DependentUpon>
