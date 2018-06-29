@@ -186,6 +186,12 @@
     <Compile Include="UCRefund.Designer.cs">
       <DependentUpon>UCRefund.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCRestore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRestore.Designer.cs">
+      <DependentUpon>UCRestore.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCSale.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -309,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCRefund.resx">
       <DependentUpon>UCRefund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRestore.resx">
+      <DependentUpon>UCRestore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCSale.resx">
       <DependentUpon>UCSale.cs</DependentUpon>

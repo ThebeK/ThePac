@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCUpdateCompanyInfo : UserControl
+    public partial class UCRestore : UserControl
     {
-        public UCUpdateCompanyInfo()
+        public UCRestore()
         {
             InitializeComponent();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }

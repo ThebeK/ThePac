@@ -74,6 +74,7 @@
             this.ucLogin1 = new DesktopApp.UCLogin();
             this.ucDashboard1 = new DesktopApp.UCDashboard();
             this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
+            this.ucAddAccessLevel1 = new DesktopApp.UCAddAccessLevel();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -129,6 +130,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.ucAddAccessLevel1);
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(203, 1);
@@ -162,8 +164,8 @@
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.userToolStripMenuItem,
             this.employeeToolStripMenuItem,
-            this.adminToolStripMenuItem,
-            this.vehicleToolStripMenuItem});
+            this.vehicleToolStripMenuItem,
+            this.adminToolStripMenuItem});
             this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(94, 36);
@@ -233,12 +235,14 @@
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
             this.backupToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.backupToolStripMenuItem.Text = "Backup";
+            this.backupToolStripMenuItem.Click += new System.EventHandler(this.backupToolStripMenuItem_Click);
             // 
             // restoreToolStripMenuItem
             // 
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
             this.restoreToolStripMenuItem.Size = new System.Drawing.Size(349, 28);
             this.restoreToolStripMenuItem.Text = "Restore";
+            this.restoreToolStripMenuItem.Click += new System.EventHandler(this.restoreToolStripMenuItem_Click);
             // 
             // vehicleToolStripMenuItem
             // 
@@ -470,6 +474,13 @@
             this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
             this.ucPurchaseOrder1.TabIndex = 2;
             // 
+            // ucAddAccessLevel1
+            // 
+            this.ucAddAccessLevel1.Location = new System.Drawing.Point(524, 20);
+            this.ucAddAccessLevel1.Name = "ucAddAccessLevel1";
+            this.ucAddAccessLevel1.Size = new System.Drawing.Size(460, 384);
+            this.ucAddAccessLevel1.TabIndex = 1;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -545,5 +556,6 @@
         private System.Windows.Forms.Panel panel5;
         private UCPurchaseOrder ucPurchaseOrder1;
         private System.Windows.Forms.Button button1;
+        private UCAddAccessLevel ucAddAccessLevel1;
     }
 }

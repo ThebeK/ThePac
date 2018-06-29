@@ -19,16 +19,16 @@ namespace DesktopApp
 
         private void btnProceed_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text.ToLower() == "admin"&&txtPassword.Text=="1234") 
+            if (txtUsername.Text.ToLower() == "admin" && txtPassword.Text == "1234")
             {
-                
+
                 frmMain activeForm = new frmMain(true);
                 activeForm.Text = "active";
                 activeForm.WindowState = FormWindowState.Maximized;
                 activeForm.ShowDialog();
-                
-                
-                
+
+
+
             }
             else
             {
