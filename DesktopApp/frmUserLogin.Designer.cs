@@ -56,8 +56,6 @@
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maintainEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateCompanyInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,12 +65,9 @@
             this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ucLogin1 = new DesktopApp.UCLogin();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -325,24 +320,10 @@
             // 
             // employeeToolStripMenuItem
             // 
-            this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addEmployeeToolStripMenuItem,
-            this.maintainEmployeeToolStripMenuItem});
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
             this.employeeToolStripMenuItem.Size = new System.Drawing.Size(294, 28);
             this.employeeToolStripMenuItem.Text = "Employee";
-            // 
-            // addEmployeeToolStripMenuItem
-            // 
-            this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
-            this.addEmployeeToolStripMenuItem.Text = "Add Employee";
-            // 
-            // maintainEmployeeToolStripMenuItem
-            // 
-            this.maintainEmployeeToolStripMenuItem.Name = "maintainEmployeeToolStripMenuItem";
-            this.maintainEmployeeToolStripMenuItem.Size = new System.Drawing.Size(258, 28);
-            this.maintainEmployeeToolStripMenuItem.Text = "Maintain Employee";
+            this.employeeToolStripMenuItem.Click += new System.EventHandler(this.employeeToolStripMenuItem_Click);
             // 
             // adminToolStripMenuItem
             // 
@@ -405,49 +386,12 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.ucLogin1);
             this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.ucDashboard1);
-            this.panel3.Controls.Add(this.ucPurchaseOrder1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(203, 41);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(623, 428);
             this.panel3.TabIndex = 5;
-            // 
-            // ucLogin1
-            // 
-            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
-            this.ucLogin1.TabIndex = 0;
-            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(383, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
             // 
             // imlMaxNorm
             // 
@@ -463,6 +407,15 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(825, 30);
             this.panel4.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(383, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
@@ -525,8 +478,6 @@
         private System.Windows.Forms.ToolStripMenuItem maintainProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addNewProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addEmployeeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem maintainEmployeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notificationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateCompanyInformationToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;

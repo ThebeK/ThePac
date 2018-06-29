@@ -19,7 +19,7 @@ namespace DesktopApp
 
         private void btnProceed_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text.ToLower() == "admin" && txtPassword.Text == "1234")
+            if (txtUsername.Text.ToLower() == "" && txtPassword.Text == "")
             {
 
                 frmMain activeForm = new frmMain(true);

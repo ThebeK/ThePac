@@ -122,3 +122,8 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRestore.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCDatabaseSettings.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddVehicle.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCEmployee.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCVehicle.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddEmployee.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainEmployee.resources
