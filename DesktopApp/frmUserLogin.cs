@@ -216,7 +216,7 @@ namespace DesktopApp
 
         private void notificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCNotification notification = new UCNotification();
+            UCNotification1 notification = new UCNotification1();
             panel3.Controls.Add(notification);
             notification.BringToFront();
             notification.Dock = DockStyle.Fill;
