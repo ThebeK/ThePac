@@ -37,8 +37,6 @@ namespace DesktopApp
             clientToolStripMenuItem.Size = new Size(50, 50);
             productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             productToolStripMenuItem.Size = new Size(50, 50);
-            supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            supplierToolStripMenuItem.Size = new Size(50, 50);
             reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             reportToolStripMenuItem.Size = new Size(50, 50);
 
@@ -87,8 +85,6 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(200, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 productToolStripMenuItem.Size = new Size(200, 50);
-                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
-                supplierToolStripMenuItem.Size = new Size(200, 50);
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 reportToolStripMenuItem.Size = new Size(200, 50);
             }
@@ -113,8 +109,6 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(50, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 productToolStripMenuItem.Size = new Size(50, 50);
-                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
-                supplierToolStripMenuItem.Size = new Size(50, 50);
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 reportToolStripMenuItem.Size = new Size(50, 50);
             }
@@ -165,7 +159,7 @@ namespace DesktopApp
         public void purchaseOrderToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
-          //  ucPurchaseOrder1.panel4.Controls.Clear();
+            ucPurchaseOrder1.panel4.Controls.Clear();
             UCNull nullclient = new UCNull();
             ucPurchaseOrder1.panel4.Controls.Add(nullclient);
             nullclient.BringToFront();
@@ -271,6 +265,11 @@ namespace DesktopApp
             panel3.Controls.Add(product);
             product.BringToFront();
             product.Dock = DockStyle.Fill;
+        }
+
+        private void ordersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -41,9 +41,6 @@
             this.addClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.supplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maintainSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pbxMenu = new System.Windows.Forms.PictureBox();
@@ -102,11 +99,10 @@
             this.saleToolStripMenuItem,
             this.clientToolStripMenuItem,
             this.productToolStripMenuItem,
-            this.supplierToolStripMenuItem,
             this.reportToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 40);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(187, 428);
+            this.menuStrip2.Size = new System.Drawing.Size(181, 428);
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -116,7 +112,7 @@
             this.dashboardToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashboardToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.dashboardToolStripMenuItem.Text = "Home";
             this.dashboardToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashboardToolStripMenuItem.Click += new System.EventHandler(this.dashboardToolStripMenuItem_Click);
@@ -130,9 +126,10 @@
             this.ordersToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ordersToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
-            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.ordersToolStripMenuItem.Text = "Order";
             this.ordersToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ordersToolStripMenuItem.Click += new System.EventHandler(this.ordersToolStripMenuItem_Click);
             // 
             // purchaseOrderToolStripMenuItem
             // 
@@ -154,7 +151,7 @@
             this.saleToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.saleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.saleToolStripMenuItem.Name = "saleToolStripMenuItem";
-            this.saleToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.saleToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.saleToolStripMenuItem.Text = "Sale";
             this.saleToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.saleToolStripMenuItem.Click += new System.EventHandler(this.saleToolStripMenuItem_Click);
@@ -168,7 +165,7 @@
             this.clientToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.clientToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
-            this.clientToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.clientToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.clientToolStripMenuItem.Text = "Client";
             this.clientToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.clientToolStripMenuItem.Click += new System.EventHandler(this.clientToolStripMenuItem_Click);
@@ -192,35 +189,10 @@
             this.productToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.productToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.productToolStripMenuItem.Text = "Product";
             this.productToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
-            // 
-            // supplierToolStripMenuItem
-            // 
-            this.supplierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addSupplierToolStripMenuItem,
-            this.maintainSupplierToolStripMenuItem});
-            this.supplierToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("supplierToolStripMenuItem.Image")));
-            this.supplierToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.supplierToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.supplierToolStripMenuItem.Name = "supplierToolStripMenuItem";
-            this.supplierToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
-            this.supplierToolStripMenuItem.Text = "Supplier";
-            this.supplierToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // addSupplierToolStripMenuItem
-            // 
-            this.addSupplierToolStripMenuItem.Name = "addSupplierToolStripMenuItem";
-            this.addSupplierToolStripMenuItem.Size = new System.Drawing.Size(313, 36);
-            this.addSupplierToolStripMenuItem.Text = "Add Supplier";
-            // 
-            // maintainSupplierToolStripMenuItem
-            // 
-            this.maintainSupplierToolStripMenuItem.Name = "maintainSupplierToolStripMenuItem";
-            this.maintainSupplierToolStripMenuItem.Size = new System.Drawing.Size(313, 36);
-            this.maintainSupplierToolStripMenuItem.Text = "Maintain Supplier";
             // 
             // reportToolStripMenuItem
             // 
@@ -228,7 +200,7 @@
             this.reportToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(174, 52);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -488,7 +460,6 @@
         private System.Windows.Forms.ToolStripMenuItem saleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem supplierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -515,8 +486,6 @@
         private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addVehicleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintainVehicleToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addSupplierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem maintainSupplierToolStripMenuItem;
         private System.Windows.Forms.Panel panel5;
         private UCPurchaseOrder ucPurchaseOrder1;
         private System.Windows.Forms.Button button1;
