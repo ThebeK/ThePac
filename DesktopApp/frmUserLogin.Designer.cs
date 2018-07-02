@@ -62,12 +62,12 @@
             this.addVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintainVehicleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
             this.ucLogin1 = new DesktopApp.UCLogin();
+            this.button1 = new System.Windows.Forms.Button();
             this.ucDashboard1 = new DesktopApp.UCDashboard();
             this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
+            this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -203,6 +203,7 @@
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
             // 
             // panel5
             // 
@@ -371,30 +372,6 @@
             this.panel3.Size = new System.Drawing.Size(623, 428);
             this.panel3.TabIndex = 5;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(383, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // imlMaxNorm
-            // 
-            this.imlMaxNorm.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlMaxNorm.ImageStream")));
-            this.imlMaxNorm.TransparentColor = System.Drawing.Color.Transparent;
-            this.imlMaxNorm.Images.SetKeyName(0, "Maximise.png");
-            this.imlMaxNorm.Images.SetKeyName(1, "Normal.png");
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(1, 469);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(825, 30);
-            this.panel4.TabIndex = 6;
-            // 
             // ucLogin1
             // 
             this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
@@ -404,6 +381,15 @@
             this.ucLogin1.Size = new System.Drawing.Size(623, 428);
             this.ucLogin1.TabIndex = 0;
             this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(383, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ucDashboard1
             // 
@@ -419,6 +405,21 @@
             this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
             this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
             this.ucPurchaseOrder1.TabIndex = 2;
+            // 
+            // imlMaxNorm
+            // 
+            this.imlMaxNorm.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlMaxNorm.ImageStream")));
+            this.imlMaxNorm.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlMaxNorm.Images.SetKeyName(0, "Maximise.png");
+            this.imlMaxNorm.Images.SetKeyName(1, "Normal.png");
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(1, 469);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(825, 30);
+            this.panel4.TabIndex = 6;
             // 
             // frmMain
             // 

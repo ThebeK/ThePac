@@ -28,18 +28,18 @@ namespace DesktopApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            UCViewOrders viewOrder = new UCViewOrders();
-            panel4.Controls.Add(viewOrder);
-            viewOrder.BringToFront();
-            viewOrder.Dock = DockStyle.Fill;
+            UCViewOrders ViewOrders = new UCViewOrders();
+            panel4.Controls.Add(ViewOrders);
+            ViewOrders.BringToFront();
+            ViewOrders.Dock = DockStyle.Fill;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            ucSuppBackOrder SuppOrder = new ucSuppBackOrder();
-            panel4.Controls.Add(SuppOrder);
-            SuppOrder.BringToFront();
-            SuppOrder.Dock = DockStyle.Fill;
+            ucSuppBackOrder SuppBackOrder = new ucSuppBackOrder();
+            panel4.Controls.Add(SuppBackOrder);
+            SuppBackOrder.BringToFront();
+            SuppBackOrder.Dock = DockStyle.Fill;
         }
     }
 }

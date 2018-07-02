@@ -21,5 +21,14 @@ namespace DesktopApp
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
+            MessageBox.Show("Please fill in all required fields");
+            MessageBox.Show("Company information updated successfully");
+
+
+        }
     }
 }
