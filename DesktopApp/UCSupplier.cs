@@ -28,18 +28,18 @@ namespace DesktopApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            UCAddEmployee AddEmployee = new UCAddEmployee();
-            panel4.Controls.Add(AddEmployee);
-            AddEmployee.BringToFront();
-            AddEmployee.Dock = DockStyle.Fill;
+            UCViewOrders ViewOrders = new UCViewOrders();
+            panel4.Controls.Add(ViewOrders);
+            ViewOrders.BringToFront();
+            ViewOrders.Dock = DockStyle.Fill;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            UCMaintainEmployee MaintainEmployee = new UCMaintainEmployee();
-            panel4.Controls.Add(MaintainEmployee);
-            MaintainEmployee.BringToFront();
-            MaintainEmployee.Dock = DockStyle.Fill;
+            ucSuppBackOrder SuppBackOrder = new ucSuppBackOrder();
+            panel4.Controls.Add(SuppBackOrder);
+            SuppBackOrder.BringToFront();
+            SuppBackOrder.Dock = DockStyle.Fill;
         }
     }
 }

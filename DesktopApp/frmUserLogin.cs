@@ -272,5 +272,18 @@ namespace DesktopApp
             product.BringToFront();
             product.Dock = DockStyle.Fill;
         }
+
+        private void reportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCReports report = new UCReports();
+            this.panel3.Controls.Add(report);
+            report.BringToFront();
+            report.Dock = DockStyle.Fill;
+
+            UCNullReport Nullreport = new UCNullReport();
+            report.panel4.Controls.Add(Nullreport);
+            Nullreport.BringToFront();
+            Nullreport.Dock = DockStyle.Fill;
+        }
     }
 }
