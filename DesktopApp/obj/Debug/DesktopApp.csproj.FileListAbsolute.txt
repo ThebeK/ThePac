@@ -178,6 +178,9 @@ C:\VS\SmartPac repo\DesktopApp\bin\Debug\CrystalDecisions.ReportAppServer.Object
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\ShockwaveFlashObjects.dll
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\stdole.dll
-C:\VS\SmartPac repo\DesktopApp\bin\Debug\Smartpac_reports.mdf
-C:\VS\SmartPac repo\DesktopApp\bin\Debug\Smartpac_reports_log.ldf
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.Sales_Report.resources
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\VS\SmartPac repo\DesktopApp\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainVehicle.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCClient.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainClient.resources

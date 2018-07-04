@@ -69,9 +69,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(23, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(157, 16);
+            this.label6.Size = new System.Drawing.Size(144, 16);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Order Total (Excl. VAT):";
+            this.label6.Text = "Sale Total (Excl. VAT):";
             // 
             // label5
             // 
@@ -89,9 +89,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(22, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 16);
+            this.label4.Size = new System.Drawing.Size(142, 16);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Order Total (incl. VAT):";
+            this.label4.Text = "Sale Total (incl. VAT):";
             // 
             // button2
             // 
@@ -153,7 +153,7 @@
             this.groupBox2.Size = new System.Drawing.Size(285, 138);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Order Total";
+            this.groupBox2.Text = "Sale Total";
             // 
             // comboBox1
             // 
@@ -247,7 +247,7 @@
             this.groupBox3.Size = new System.Drawing.Size(688, 329);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Make Sale";
+            this.groupBox3.Text = "Sale";
             // 
             // UCMakeSale
             // 

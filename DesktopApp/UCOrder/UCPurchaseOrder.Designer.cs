@@ -246,7 +246,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel5.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Controls.Add(this.lblTitle);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -272,6 +272,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
             this.lblTitle.Location = new System.Drawing.Point(408, 3);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(210, 32);
@@ -379,7 +380,7 @@
             // 
             // splitter1
             // 
-            this.splitter1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.splitter1.BackColor = System.Drawing.Color.DodgerBlue;
             this.splitter1.Cursor = System.Windows.Forms.Cursors.HSplit;
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitter1.Location = new System.Drawing.Point(0, 0);

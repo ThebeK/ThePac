@@ -86,11 +86,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,17 +100,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frmSales Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSales Report.Designer.cs">
-      <DependentUpon>frmSales Report.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SmartPac Reports.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SmartPac Reports.xsd</DependentUpon>
-    </Compile>
     <Compile Include="UCAddAccessLevel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -139,6 +123,12 @@
     </Compile>
     <Compile Include="UCAddVehicle.Designer.cs">
       <DependentUpon>UCAddVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCClient.Designer.cs">
+      <DependentUpon>UCClient.cs</DependentUpon>
     </Compile>
     <Compile Include="UCClientReport.cs">
       <SubType>UserControl</SubType>
@@ -170,6 +160,12 @@
     <Compile Include="UCEmployeeReport.Designer.cs">
       <DependentUpon>UCEmployeeReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCMaintainClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainClient.Designer.cs">
+      <DependentUpon>UCMaintainClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCMaintainEmployee.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -181,6 +177,12 @@
     </Compile>
     <Compile Include="UCMaintainTemplateFields.Designer.cs">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMaintainVehicle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainVehicle.Designer.cs">
+      <DependentUpon>UCMaintainVehicle.cs</DependentUpon>
     </Compile>
     <Compile Include="UCNotification1.cs">
       <SubType>UserControl</SubType>
@@ -396,9 +398,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="frmSales Report.resx">
-      <DependentUpon>frmSales Report.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UCAddAccessLevel.resx">
       <DependentUpon>UCAddAccessLevel.cs</DependentUpon>
     </EmbeddedResource>
@@ -410,6 +409,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCAddVehicle.resx">
       <DependentUpon>UCAddVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCClient.resx">
+      <DependentUpon>UCClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCClientReport.resx">
       <DependentUpon>UCClientReport.cs</DependentUpon>
@@ -426,11 +428,17 @@
     <EmbeddedResource Include="UCEmployeeReport.resx">
       <DependentUpon>UCEmployeeReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainClient.resx">
+      <DependentUpon>UCMaintainClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainEmployee.resx">
       <DependentUpon>UCMaintainEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainTemplateFields.resx">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainVehicle.resx">
+      <DependentUpon>UCMaintainVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCNotification1.resx">
       <DependentUpon>UCNotification1.cs</DependentUpon>
@@ -532,17 +540,6 @@
       <DependentUpon>UCViewOrders.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet1.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -555,17 +552,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SmartPac Reports.xsc">
-      <DependentUpon>SmartPac Reports.xsd</DependentUpon>
-    </None>
-    <None Include="SmartPac Reports.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SmartPac Reports.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SmartPac Reports.xss">
-      <DependentUpon>SmartPac Reports.xsd</DependentUpon>
-    </None>
     <None Include="UCOrder\App.config" />
   </ItemGroup>
   <ItemGroup>
@@ -573,15 +559,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UCNotification\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Smartpac_reports.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Smartpac_reports_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Smartpac_reports.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -594,6 +571,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

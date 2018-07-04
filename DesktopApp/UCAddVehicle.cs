@@ -16,5 +16,12 @@ namespace DesktopApp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to Add this vehicle ?", "confirmation", MessageBoxButtons.YesNo);
+            MessageBox.Show("Vehicle details have been added successfully");
+            MessageBox.Show("Vehicle already exists on the system");
+        }
     }
 }
