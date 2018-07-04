@@ -65,6 +65,7 @@
       <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="QRCoder">
       <HintPath>..\..\QRCoder-master\QRCoderDemo\bin\Debug\QRCoder.dll</HintPath>
     </Reference>
@@ -75,6 +76,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -376,6 +378,12 @@
     <Compile Include="UCVehicle.Designer.cs">
       <DependentUpon>UCVehicle.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCViewOrderItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCViewOrderItems.Designer.cs">
+      <DependentUpon>UCViewOrderItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCViewOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -535,6 +543,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCVehicle.resx">
       <DependentUpon>UCVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCViewOrderItems.resx">
+      <DependentUpon>UCViewOrderItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCViewOrders.resx">
       <DependentUpon>UCViewOrders.cs</DependentUpon>
