@@ -18,9 +18,17 @@ namespace DesktopApp
         }
 
         private void button1_Click(object sender, EventArgs e)
+        { 
+        }
+
+        private void reportforsales1_InitReport(object sender, EventArgs e)
         {
-            Sales_Report salesrpt = new Sales_Report();
-            salesrpt.ShowDialog();
+
+        }
+
+        private void crystalReportViewer2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

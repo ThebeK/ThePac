@@ -24,5 +24,13 @@ namespace DesktopApp
             addVehicle.BringToFront();
             addVehicle.Dock = DockStyle.Fill;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            UCMaintainVehicle maintainVehicle = new UCMaintainVehicle();
+            panel4.Controls.Add(maintainVehicle);
+            maintainVehicle.BringToFront();
+            maintainVehicle.Dock = DockStyle.Fill;
+        }
     }
 }

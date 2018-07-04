@@ -29,10 +29,10 @@ namespace DesktopApp
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
-            UCAddEmployee addOrder = new UCAddEmployee();
-            panel4.Controls.Add(addOrder);
-            addOrder.BringToFront();
-            addOrder.Dock = DockStyle.Fill;
+            UCMaintainEmployee MaintainEmployee = new UCMaintainEmployee();
+            panel4.Controls.Add(MaintainEmployee);
+            MaintainEmployee.BringToFront();
+            MaintainEmployee.Dock = DockStyle.Fill;
         }
     }
 }

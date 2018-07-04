@@ -37,6 +37,7 @@ namespace DesktopApp
             clientToolStripMenuItem.Size = new Size(50, 50);
             productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             productToolStripMenuItem.Size = new Size(50, 50);
+           
             reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             reportToolStripMenuItem.Size = new Size(50, 50);
 
@@ -85,6 +86,7 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(200, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 productToolStripMenuItem.Size = new Size(200, 50);
+              
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 reportToolStripMenuItem.Size = new Size(200, 50);
             }
@@ -109,6 +111,7 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(50, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 productToolStripMenuItem.Size = new Size(50, 50);
+               
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 reportToolStripMenuItem.Size = new Size(50, 50);
             }
@@ -197,7 +200,15 @@ namespace DesktopApp
 
         private void clientToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            UCClient client = new UCClient();
+            this.panel3.Controls.Add(client);
+            client.BringToFront();
+            client.Dock = DockStyle.Fill;
 
+            UCAddClient AddReport = new UCAddClient();
+            client.panel4.Controls.Add(AddReport);
+            AddReport.BringToFront();
+            AddReport.Dock = DockStyle.Fill;
         }
 
         private void addClientToolStripMenuItem_Click(object sender, EventArgs e)
@@ -234,7 +245,15 @@ namespace DesktopApp
 
         private void vehicleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            UCVehicle Vehicle = new UCVehicle();
+            this.panel3.Controls.Add(Vehicle);
+            Vehicle.BringToFront();
+            Vehicle.Dock = DockStyle.Fill;
+
+            UCAddVehicle AddVehicle = new UCAddVehicle();
+            Vehicle.panel4.Controls.Add(AddVehicle);
+            AddVehicle.BringToFront();
+            AddVehicle.Dock = DockStyle.Fill;
         }
 
         private void backupToolStripMenuItem_Click(object sender, EventArgs e)
@@ -278,6 +297,19 @@ namespace DesktopApp
             report.panel4.Controls.Add(Nullreport);
             Nullreport.BringToFront();
             Nullreport.Dock = DockStyle.Fill;
+        }
+
+        private void employeeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCEmployee Employee = new UCEmployee();
+            this.panel3.Controls.Add(Employee);
+            Employee.BringToFront();
+            Employee.Dock = DockStyle.Fill;
+
+            UCAddEmployee AddEmployee= new UCAddEmployee();
+            Employee.panel4.Controls.Add(AddEmployee);
+            AddEmployee.BringToFront();
+            AddEmployee.Dock = DockStyle.Fill;
         }
     }
 }
