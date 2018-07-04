@@ -407,6 +407,7 @@
     <EmbeddedResource Include="frmSales Report.resx">
       <DependentUpon>frmSales Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="UCAddAccessLevel.resx">
       <DependentUpon>UCAddAccessLevel.cs</DependentUpon>
     </EmbeddedResource>
