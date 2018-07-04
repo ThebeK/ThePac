@@ -37,8 +37,6 @@ namespace DesktopApp
             clientToolStripMenuItem.Size = new Size(50, 50);
             productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             productToolStripMenuItem.Size = new Size(50, 50);
-            supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            supplierToolStripMenuItem.Size = new Size(50, 50);
             reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
             reportToolStripMenuItem.Size = new Size(50, 50);
 
@@ -87,8 +85,6 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(200, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 productToolStripMenuItem.Size = new Size(200, 50);
-                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
-                supplierToolStripMenuItem.Size = new Size(200, 50);
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 reportToolStripMenuItem.Size = new Size(200, 50);
             }
@@ -113,8 +109,6 @@ namespace DesktopApp
                 clientToolStripMenuItem.Size = new Size(50, 50);
                 productToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 productToolStripMenuItem.Size = new Size(50, 50);
-                supplierToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
-                supplierToolStripMenuItem.Size = new Size(50, 50);
                 reportToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Image;
                 reportToolStripMenuItem.Size = new Size(50, 50);
             }

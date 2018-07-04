@@ -129,7 +129,7 @@
             this.ordersToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
             this.ordersToolStripMenuItem.Text = "Order";
             this.ordersToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ordersToolStripMenuItem.Click += new System.EventHandler(this.ordersToolStripMenuItem_Click);
+           // this.ordersToolStripMenuItem.Click += new System.EventHandler(this.ordersToolStripMenuItem_Click);
             // 
             // purchaseOrderToolStripMenuItem
             // 
