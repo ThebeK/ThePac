@@ -53,7 +53,7 @@ namespace DesktopApp
                 comboBox1.Items.Add(device.Name);
             }
             comboBox1.SelectedIndex = -1;
-            //FinalFrame = new VideoCaptureDevice();
+            FinalFrame = new VideoCaptureDevice();
 
 
 
