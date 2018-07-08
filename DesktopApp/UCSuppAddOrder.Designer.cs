@@ -42,9 +42,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printDocument2 = new System.Drawing.Printing.PrintDocument();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
@@ -61,7 +71,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(182, 259);
+            this.button2.Location = new System.Drawing.Point(182, 139);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 7;
@@ -90,6 +100,14 @@
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7});
             this.dataGridView1.Location = new System.Drawing.Point(344, 71);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(652, 310);
@@ -129,10 +147,10 @@
             this.groupBox1.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 71);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(285, 310);
+            this.groupBox1.Size = new System.Drawing.Size(285, 195);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Product Selection";
+            this.groupBox1.Text = "Add Cash Sale Products";
             // 
             // comboBox1
             // 
@@ -140,7 +158,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(25, 88);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(212, 24);
+            this.comboBox1.Size = new System.Drawing.Size(232, 24);
             this.comboBox1.TabIndex = 2;
             // 
             // radioButton1
@@ -178,10 +196,75 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Add Order";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(28, 272);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(285, 109);
+            this.groupBox2.TabIndex = 15;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Add Client Purchase Order Products";
+            // 
+            // button4
+            // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.Location = new System.Drawing.Point(25, 54);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(231, 26);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Generate Clients Supplier Order";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.HeaderText = "Orderline ID";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.HeaderText = "Product ID";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.HeaderText = "Brand";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.HeaderText = "Type";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.HeaderText = "Description";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.HeaderText = "Quantity";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column7.HeaderText = "Supplier Order ID";
+            this.Column7.Name = "Column7";
+            // 
             // UCSuppAddOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -193,6 +276,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +298,14 @@
         private System.Windows.Forms.Label label1;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Drawing.Printing.PrintDocument printDocument2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }
