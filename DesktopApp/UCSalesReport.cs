@@ -15,6 +15,8 @@ namespace DesktopApp
         public UCSalesReport()
         {
             InitializeComponent();
+
+     
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,6 +29,23 @@ namespace DesktopApp
         }
 
         private void crystalReportViewer2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+          
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        
+        }
+
+        private void UCSalesReport_Load(object sender, EventArgs e)
         {
 
         }

@@ -26,11 +26,11 @@ namespace DesktopApp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Smartpac_repo" +
-            "rts.mdf;Integrated Security=True")]
-        public string Smartpac_reportsConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\smartpac_repo" +
+            "rts.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string smartpac_reportsConnectionString {
             get {
-                return ((string)(this["Smartpac_reportsConnectionString"]));
+                return ((string)(this["smartpac_reportsConnectionString"]));
             }
         }
     }
