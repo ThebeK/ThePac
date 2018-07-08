@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCMaintainClient));
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -46,10 +47,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -58,8 +62,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -233,6 +235,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -266,6 +269,31 @@
             this.splitContainer1.SplitterDistance = 674;
             this.splitContainer1.TabIndex = 6;
             // 
+            // comboBox5
+            // 
+            this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.comboBox5.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Sage",
+            "Makro",
+            "University Of Pretoria"});
+            this.comboBox5.Location = new System.Drawing.Point(162, 23);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(194, 24);
+            this.comboBox5.TabIndex = 3;
+            // 
+            // label16
+            // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(61, 23);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(79, 16);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Select Client:";
+            // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -283,36 +311,45 @@
             // groupBox4
             // 
             this.groupBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.groupBox4.Controls.Add(this.button5);
+            this.groupBox4.Controls.Add(this.textBox9);
             this.groupBox4.Controls.Add(this.comboBox3);
-            this.groupBox4.Controls.Add(this.comboBox2);
             this.groupBox4.Controls.Add(this.comboBox1);
             this.groupBox4.Controls.Add(this.textBox6);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Location = new System.Drawing.Point(-3, 178);
+            this.groupBox4.Location = new System.Drawing.Point(6, 169);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(636, 170);
+            this.groupBox4.Size = new System.Drawing.Size(636, 180);
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Place Of Business";
             // 
+            // button5
+            // 
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(591, 99);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(31, 28);
+            this.button5.TabIndex = 21;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(129, 132);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(132, 23);
+            this.textBox9.TabIndex = 20;
+            // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(490, 102);
+            this.comboBox3.Location = new System.Drawing.Point(453, 102);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(132, 24);
             this.comboBox3.TabIndex = 19;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(129, 140);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(132, 24);
-            this.comboBox2.TabIndex = 18;
             // 
             // comboBox1
             // 
@@ -364,7 +401,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Maiandra GD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(9, 141);
+            this.label9.Location = new System.Drawing.Point(9, 132);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(85, 16);
             this.label9.TabIndex = 10;
@@ -395,35 +432,10 @@
             this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Location = new System.Drawing.Point(-6, 73);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(639, 99);
+            this.groupBox3.Size = new System.Drawing.Size(639, 90);
             this.groupBox3.TabIndex = 11;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Contact Information";
-            // 
-            // label16
-            // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(61, 23);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(79, 16);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "Select Client:";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboBox5.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "Sage",
-            "Makro",
-            "University Of Pretoria"});
-            this.comboBox5.Location = new System.Drawing.Point(162, 23);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(194, 24);
-            this.comboBox5.TabIndex = 3;
             // 
             // groupBox5
             // 
@@ -666,7 +678,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label10;
@@ -695,5 +706,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -65,10 +65,10 @@ namespace DesktopApp
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            UCClientReport ClientReport = new UCClientReport();
-            panel4.Controls.Add(ClientReport);
-            ClientReport.BringToFront();
-            ClientReport.Dock = DockStyle.Fill;
+            UCAuditTrailReport AuditTrailReport = new UCAuditTrailReport();
+            panel4.Controls.Add(AuditTrailReport);
+            AuditTrailReport.BringToFront();
+            AuditTrailReport.Dock = DockStyle.Fill;
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)

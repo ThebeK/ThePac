@@ -62,6 +62,7 @@
             this.ucLogin1 = new DesktopApp.UCLogin();
             this.ucDashboard1 = new DesktopApp.UCDashboard();
             this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
+            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -375,6 +376,14 @@
             this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
             this.ucPurchaseOrder1.TabIndex = 2;
             // 
+            // metroTile1
+            // 
+            this.metroTile1.ActiveControl = null;
+            this.metroTile1.Location = new System.Drawing.Point(0, 0);
+            this.metroTile1.Name = "metroTile1";
+            this.metroTile1.TabIndex = 0;
+            this.metroTile1.UseSelectable = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -438,5 +447,6 @@
         private System.Windows.Forms.Panel panel5;
         private UCPurchaseOrder ucPurchaseOrder1;
         private System.Windows.Forms.Button button1;
+        private MetroFramework.Controls.MetroTile metroTile1;
     }
 }

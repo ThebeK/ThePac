@@ -30,10 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplashScreen));
+            this.SalesReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.smartpac_reportsDataSet = new DesktopApp.smartpac_reportsDataSet();
             this.panel2 = new System.Windows.Forms.Panel();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.SalesReportTableAdapter = new DesktopApp.smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).BeginInit();
             this.SuspendLayout();
+            // 
+            // SalesReportBindingSource
+            // 
+            this.SalesReportBindingSource.DataMember = "SalesReport";
+            this.SalesReportBindingSource.DataSource = this.smartpac_reportsDataSet;
+            // 
+            // smartpac_reportsDataSet
+            // 
+            this.smartpac_reportsDataSet.DataSetName = "smartpac_reportsDataSet";
+            this.smartpac_reportsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // panel2
             // 
@@ -57,6 +72,10 @@
             this.timer1.Interval = 32;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // SalesReportTableAdapter
+            // 
+            this.SalesReportTableAdapter.ClearBeforeFill = true;
+            // 
             // frmSplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -73,6 +92,9 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSplashScreen";
+            this.Load += new System.EventHandler(this.frmSplashScreen_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -82,5 +104,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.BindingSource SalesReportBindingSource;
+        private smartpac_reportsDataSet smartpac_reportsDataSet;
+        private smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter SalesReportTableAdapter;
     }
 }
