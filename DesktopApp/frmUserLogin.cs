@@ -311,5 +311,13 @@ namespace DesktopApp
             AddEmployee.BringToFront();
             AddEmployee.Dock = DockStyle.Fill;
         }
+
+        private void signINOUTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCSignInOut IO = new UCSignInOut();
+            panel3.Controls.Add(IO);
+            IO.BringToFront();
+            IO.Dock = DockStyle.Fill;
+        }
     }
 }

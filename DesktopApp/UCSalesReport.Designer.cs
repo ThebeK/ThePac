@@ -34,6 +34,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -93,10 +96,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.reportViewer1);
+            this.panel1.Location = new System.Drawing.Point(42, 116);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(758, 287);
+            this.panel1.TabIndex = 22;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Location = new System.Drawing.Point(254, 38);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
+            this.reportViewer1.TabIndex = 0;
+            // 
             // UCSalesReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label3);
@@ -105,6 +124,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UCSalesReport";
             this.Size = new System.Drawing.Size(880, 472);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,5 +137,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }

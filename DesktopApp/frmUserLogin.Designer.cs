@@ -50,6 +50,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
+            this.ucLogin1 = new DesktopApp.UCLogin();
+            this.ucDashboard1 = new DesktopApp.UCDashboard();
+            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.purchaseOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,9 +62,7 @@
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbxMenu = new System.Windows.Forms.PictureBox();
-            this.ucLogin1 = new DesktopApp.UCLogin();
-            this.ucDashboard1 = new DesktopApp.UCDashboard();
-            this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
+            this.signINOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -128,7 +129,8 @@
             this.menuStrip1.AutoSize = false;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loginToolStripMenuItem,
-            this.optionsToolStripMenuItem});
+            this.optionsToolStripMenuItem,
+            this.signINOUTToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(623, 40);
@@ -250,6 +252,31 @@
             this.panel4.Size = new System.Drawing.Size(825, 30);
             this.panel4.TabIndex = 6;
             // 
+            // ucLogin1
+            // 
+            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
+            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
+            this.ucLogin1.Name = "ucLogin1";
+            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
+            this.ucLogin1.TabIndex = 0;
+            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
+            // 
+            // ucDashboard1
+            // 
+            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
+            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
+            this.ucDashboard1.Name = "ucDashboard1";
+            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
+            this.ucDashboard1.TabIndex = 1;
+            // 
+            // ucPurchaseOrder1
+            // 
+            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
+            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
+            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
+            this.ucPurchaseOrder1.TabIndex = 2;
+            // 
             // dashboardToolStripMenuItem
             // 
             this.dashboardToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
@@ -350,30 +377,12 @@
             this.pbxMenu.TabStop = false;
             this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
             // 
-            // ucLogin1
+            // signINOUTToolStripMenuItem
             // 
-            this.ucLogin1.BackColor = System.Drawing.SystemColors.Control;
-            this.ucLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucLogin1.Location = new System.Drawing.Point(0, 0);
-            this.ucLogin1.Name = "ucLogin1";
-            this.ucLogin1.Size = new System.Drawing.Size(623, 428);
-            this.ucLogin1.TabIndex = 0;
-            this.ucLogin1.Load += new System.EventHandler(this.ucLogin1_Load);
-            // 
-            // ucDashboard1
-            // 
-            this.ucDashboard1.BackColor = System.Drawing.Color.Azure;
-            this.ucDashboard1.Location = new System.Drawing.Point(213, 197);
-            this.ucDashboard1.Name = "ucDashboard1";
-            this.ucDashboard1.Size = new System.Drawing.Size(662, 375);
-            this.ucDashboard1.TabIndex = 1;
-            // 
-            // ucPurchaseOrder1
-            // 
-            this.ucPurchaseOrder1.Location = new System.Drawing.Point(160, 105);
-            this.ucPurchaseOrder1.Name = "ucPurchaseOrder1";
-            this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
-            this.ucPurchaseOrder1.TabIndex = 2;
+            this.signINOUTToolStripMenuItem.Name = "signINOUTToolStripMenuItem";
+            this.signINOUTToolStripMenuItem.Size = new System.Drawing.Size(88, 36);
+            this.signINOUTToolStripMenuItem.Text = "Sign-IN/OUT";
+            this.signINOUTToolStripMenuItem.Click += new System.EventHandler(this.signINOUTToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -438,5 +447,6 @@
         private System.Windows.Forms.Panel panel5;
         private UCPurchaseOrder ucPurchaseOrder1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem signINOUTToolStripMenuItem;
     }
 }
