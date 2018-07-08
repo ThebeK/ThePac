@@ -32,7 +32,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.purchaseOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.supplierOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pbxMenu = new System.Windows.Forms.PictureBox();
             this.tmrSlide = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -50,26 +59,17 @@
             this.button1 = new System.Windows.Forms.Button();
             this.imlMaxNorm = new System.Windows.Forms.ImageList(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
-            this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.purchaseOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.supplierOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pbxMenu = new System.Windows.Forms.PictureBox();
+            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.ucLogin1 = new DesktopApp.UCLogin();
             this.ucDashboard1 = new DesktopApp.UCDashboard();
             this.ucPurchaseOrder1 = new DesktopApp.UCPurchaseOrder();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenu
@@ -101,6 +101,94 @@
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // dashboardToolStripMenuItem
+            // 
+            this.dashboardToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.dashboardToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dashboardToolStripMenuItem.Image")));
+            this.dashboardToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashboardToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.dashboardToolStripMenuItem.Text = "Home";
+            this.dashboardToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashboardToolStripMenuItem.Click += new System.EventHandler(this.dashboardToolStripMenuItem_Click);
+            // 
+            // ordersToolStripMenuItem
+            // 
+            this.ordersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.purchaseOrderToolStripMenuItem,
+            this.supplierOrderToolStripMenuItem});
+            this.ordersToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.ordersToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ordersToolStripMenuItem.Image")));
+            this.ordersToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ordersToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
+            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.ordersToolStripMenuItem.Text = "Order";
+            this.ordersToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // purchaseOrderToolStripMenuItem
+            // 
+            this.purchaseOrderToolStripMenuItem.Name = "purchaseOrderToolStripMenuItem";
+            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
+            this.purchaseOrderToolStripMenuItem.Text = "Purchase Order";
+            this.purchaseOrderToolStripMenuItem.Click += new System.EventHandler(this.purchaseOrderToolStripMenuItem_Click);
+            // 
+            // supplierOrderToolStripMenuItem
+            // 
+            this.supplierOrderToolStripMenuItem.Name = "supplierOrderToolStripMenuItem";
+            this.supplierOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
+            this.supplierOrderToolStripMenuItem.Text = "Supplier Order";
+            this.supplierOrderToolStripMenuItem.Click += new System.EventHandler(this.supplierOrderToolStripMenuItem_Click);
+            // 
+            // saleToolStripMenuItem
+            // 
+            this.saleToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.saleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saleToolStripMenuItem.Image")));
+            this.saleToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.saleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.saleToolStripMenuItem.Name = "saleToolStripMenuItem";
+            this.saleToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.saleToolStripMenuItem.Text = "Sale";
+            this.saleToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.saleToolStripMenuItem.Click += new System.EventHandler(this.saleToolStripMenuItem_Click);
+            // 
+            // clientToolStripMenuItem
+            // 
+            this.clientToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.clientToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clientToolStripMenuItem.Image")));
+            this.clientToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clientToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
+            this.clientToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.clientToolStripMenuItem.Text = "Client";
+            this.clientToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clientToolStripMenuItem.Click += new System.EventHandler(this.clientToolStripMenuItem_Click);
+            // 
+            // productToolStripMenuItem
+            // 
+            this.productToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.productToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("productToolStripMenuItem.Image")));
+            this.productToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.productToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.productToolStripMenuItem.Name = "productToolStripMenuItem";
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.productToolStripMenuItem.Text = "Product";
+            this.productToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
+            // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.reportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("reportToolStripMenuItem.Image")));
+            this.reportToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
+            this.reportToolStripMenuItem.Text = "Report";
+            this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
+            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.pbxMenu);
@@ -109,6 +197,18 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(202, 40);
             this.panel5.TabIndex = 4;
+            // 
+            // pbxMenu
+            // 
+            this.pbxMenu.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbxMenu.Image = ((System.Drawing.Image)(resources.GetObject("pbxMenu.Image")));
+            this.pbxMenu.Location = new System.Drawing.Point(161, 0);
+            this.pbxMenu.Name = "pbxMenu";
+            this.pbxMenu.Size = new System.Drawing.Size(40, 40);
+            this.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxMenu.TabIndex = 1;
+            this.pbxMenu.TabStop = false;
+            this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
             // 
             // tmrSlide
             // 
@@ -251,105 +351,13 @@
             this.panel4.Size = new System.Drawing.Size(825, 30);
             this.panel4.TabIndex = 6;
             // 
-            // dashboardToolStripMenuItem
+            // metroTile1
             // 
-            this.dashboardToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.dashboardToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dashboardToolStripMenuItem.Image")));
-            this.dashboardToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.dashboardToolStripMenuItem.Text = "Home";
-            this.dashboardToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardToolStripMenuItem.Click += new System.EventHandler(this.dashboardToolStripMenuItem_Click);
-            // 
-            // ordersToolStripMenuItem
-            // 
-            this.ordersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.purchaseOrderToolStripMenuItem,
-            this.supplierOrderToolStripMenuItem});
-            this.ordersToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.ordersToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ordersToolStripMenuItem.Image")));
-            this.ordersToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ordersToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
-            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.ordersToolStripMenuItem.Text = "Order";
-            this.ordersToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // purchaseOrderToolStripMenuItem
-            // 
-            this.purchaseOrderToolStripMenuItem.Name = "purchaseOrderToolStripMenuItem";
-            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
-            this.purchaseOrderToolStripMenuItem.Text = "Purchase Order";
-            this.purchaseOrderToolStripMenuItem.Click += new System.EventHandler(this.purchaseOrderToolStripMenuItem_Click);
-            // 
-            // supplierOrderToolStripMenuItem
-            // 
-            this.supplierOrderToolStripMenuItem.Name = "supplierOrderToolStripMenuItem";
-            this.supplierOrderToolStripMenuItem.Size = new System.Drawing.Size(293, 36);
-            this.supplierOrderToolStripMenuItem.Text = "Supplier Order";
-            this.supplierOrderToolStripMenuItem.Click += new System.EventHandler(this.supplierOrderToolStripMenuItem_Click);
-            // 
-            // saleToolStripMenuItem
-            // 
-            this.saleToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.saleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saleToolStripMenuItem.Image")));
-            this.saleToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.saleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.saleToolStripMenuItem.Name = "saleToolStripMenuItem";
-            this.saleToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.saleToolStripMenuItem.Text = "Sale";
-            this.saleToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.saleToolStripMenuItem.Click += new System.EventHandler(this.saleToolStripMenuItem_Click);
-            // 
-            // clientToolStripMenuItem
-            // 
-            this.clientToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.clientToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clientToolStripMenuItem.Image")));
-            this.clientToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clientToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
-            this.clientToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.clientToolStripMenuItem.Text = "Client";
-            this.clientToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clientToolStripMenuItem.Click += new System.EventHandler(this.clientToolStripMenuItem_Click);
-            // 
-            // productToolStripMenuItem
-            // 
-            this.productToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.productToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("productToolStripMenuItem.Image")));
-            this.productToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.productToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.productToolStripMenuItem.Text = "Product";
-            this.productToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
-            // 
-            // reportToolStripMenuItem
-            // 
-            this.reportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.reportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("reportToolStripMenuItem.Image")));
-            this.reportToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(168, 52);
-            this.reportToolStripMenuItem.Text = "Report";
-            this.reportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
-            // 
-            // pbxMenu
-            // 
-            this.pbxMenu.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pbxMenu.Image = ((System.Drawing.Image)(resources.GetObject("pbxMenu.Image")));
-            this.pbxMenu.Location = new System.Drawing.Point(161, 0);
-            this.pbxMenu.Name = "pbxMenu";
-            this.pbxMenu.Size = new System.Drawing.Size(40, 40);
-            this.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbxMenu.TabIndex = 1;
-            this.pbxMenu.TabStop = false;
-            this.pbxMenu.Click += new System.EventHandler(this.pbxMenu_Click);
+            this.metroTile1.ActiveControl = null;
+            this.metroTile1.Location = new System.Drawing.Point(0, 0);
+            this.metroTile1.Name = "metroTile1";
+            this.metroTile1.TabIndex = 0;
+            this.metroTile1.UseSelectable = true;
             // 
             // ucLogin1
             // 
@@ -376,14 +384,6 @@
             this.ucPurchaseOrder1.Size = new System.Drawing.Size(859, 533);
             this.ucPurchaseOrder1.TabIndex = 2;
             // 
-            // metroTile1
-            // 
-            this.metroTile1.ActiveControl = null;
-            this.metroTile1.Location = new System.Drawing.Point(0, 0);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.TabIndex = 0;
-            this.metroTile1.UseSelectable = true;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -404,11 +404,11 @@
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
