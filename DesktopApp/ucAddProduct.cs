@@ -26,5 +26,12 @@ namespace DesktopApp
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to Add this Product ?", "confirmation", MessageBoxButtons.YesNo);
+            MessageBox.Show("Product details have been added successfully");
+            MessageBox.Show("Please fill in all required fields");
+        }
     }
 }

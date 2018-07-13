@@ -20,6 +20,9 @@ namespace DesktopApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            frmInvoice f = new frmInvoice();
+            f.ShowDialog();
+             
             MessageBox.Show("Please fill in all required fields");
             MessageBox.Show( "Are you sure you want to place this order?","confirmation", MessageBoxButtons.YesNo);
             MessageBox.Show("Purchase order has been placed successfully");

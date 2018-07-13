@@ -47,7 +47,24 @@ namespace DesktopApp
 
         private void UCSalesReport_Load(object sender, EventArgs e)
         {
+            this.SalesTableAdapter.Fill(this.SalesReportDs.Sales, dateTimePicker1.Value.ToShortDateString(), dateTimePicker2.Value.ToShortDateString());
+            this.reportViewer1.RefreshReport();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        { 
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+
+            this.SalesTableAdapter.Fill(this.SalesReportDs.Sales, dateTimePicker1.Value.ToShortDateString(), dateTimePicker2.Value.ToShortDateString());
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+           
         }
     }
 }

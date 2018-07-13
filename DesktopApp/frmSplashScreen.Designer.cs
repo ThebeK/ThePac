@@ -31,24 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplashScreen));
             this.SalesReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.smartpac_reportsDataSet = new DesktopApp.smartpac_reportsDataSet();
+     //       this.smartpac_reportsDataSet = new DesktopApp.smartpac_reportsDataSet();
             this.panel2 = new System.Windows.Forms.Panel();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.SalesReportTableAdapter = new DesktopApp.smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter();
+      //      this.SalesReportTableAdapter = new DesktopApp.smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).BeginInit();
+   //         ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // SalesReportBindingSource
             // 
             this.SalesReportBindingSource.DataMember = "SalesReport";
-            this.SalesReportBindingSource.DataSource = this.smartpac_reportsDataSet;
+ //           this.SalesReportBindingSource.DataSource = this.smartpac_reportsDataSet;
             // 
             // smartpac_reportsDataSet
             // 
-            this.smartpac_reportsDataSet.DataSetName = "smartpac_reportsDataSet";
-            this.smartpac_reportsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+     //       this.smartpac_reportsDataSet.DataSetName = "smartpac_reportsDataSet";
+           // this.smartpac_reportsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // panel2
             // 
@@ -74,7 +74,7 @@
             // 
             // SalesReportTableAdapter
             // 
-            this.SalesReportTableAdapter.ClearBeforeFill = true;
+  //          this.SalesReportTableAdapter.ClearBeforeFill = true;
             // 
             // frmSplashScreen
             // 
@@ -94,7 +94,7 @@
             this.Text = "frmSplashScreen";
             this.Load += new System.EventHandler(this.frmSplashScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).EndInit();
+      //      ((System.ComponentModel.ISupportInitialize)(this.smartpac_reportsDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -105,7 +105,7 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.BindingSource SalesReportBindingSource;
-        private smartpac_reportsDataSet smartpac_reportsDataSet;
-        private smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter SalesReportTableAdapter;
+       // private smartpac_reportsDataSet smartpac_reportsDataSet;
+     //   private smartpac_reportsDataSetTableAdapters.SalesReportTableAdapter SalesReportTableAdapter;
     }
 }

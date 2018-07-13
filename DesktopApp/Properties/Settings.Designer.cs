@@ -33,5 +33,38 @@ namespace DesktopApp.Properties {
                 return ((string)(this["smartpac_reportsConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DbSalesReport" +
+            ".mdf;Integrated Security=True;Connect Timeout=30")]
+        public string DbSalesReportConnectionString {
+            get {
+                return ((string)(this["DbSalesReportConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Test.mdf;Inte" +
+            "grated Security=True;Connect Timeout=30")]
+        public string TestConnectionString {
+            get {
+                return ((string)(this["TestConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DbOutstanding" +
+            "Del.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string DbOutstandingDelConnectionString {
+            get {
+                return ((string)(this["DbOutstandingDelConnectionString"]));
+            }
+        }
     }
 }

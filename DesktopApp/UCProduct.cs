@@ -30,5 +30,20 @@ namespace DesktopApp
             Addproduct.BringToFront();
             Addproduct.Dock = DockStyle.Fill;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+            UCMaintainProduct Maintainproduct = new UCMaintainProduct();
+            panel4.Controls.Add(Maintainproduct);
+            Maintainproduct.BringToFront();
+            Maintainproduct.Dock = DockStyle.Fill;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            frmAddProductType f = new frmAddProductType();
+            f.ShowDialog();
+        }
     }
 }

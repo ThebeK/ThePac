@@ -30,5 +30,10 @@ namespace DesktopApp
             MessageBox.Show("Vehicle details have been deleted successfully");
             MessageBox.Show("This vehicle can not be deleted as it is being used in another transaction, make it unavailable instead ?", "confirmation", MessageBoxButtons.YesNo);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

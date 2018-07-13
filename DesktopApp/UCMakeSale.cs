@@ -21,5 +21,14 @@ namespace DesktopApp
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("Please fill in all required fields");
+            MessageBox.Show("Are you sure you want to Make ?", "confirmation", MessageBoxButtons.YesNo);
+            MessageBox.Show("Purchase order has been placed successfully");
+            MessageBox.Show("Order Total exceeds client credit limit");
+        }
     }
 }

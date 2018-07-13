@@ -65,7 +65,7 @@ namespace DesktopApp
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            UCAuditTrailReport AuditTrailReport = new UCAuditTrailReport();
+            UCAuditLogReport AuditTrailReport = new UCAuditLogReport();
             panel4.Controls.Add(AuditTrailReport);
             AuditTrailReport.BringToFront();
             AuditTrailReport.Dock = DockStyle.Fill;

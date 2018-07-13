@@ -90,12 +90,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audit_Create_Report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Audit_Create_Report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="clsOrders.cs" />
+    <Compile Include="frmAddProductType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddProductType.Designer.cs">
+      <DependentUpon>frmAddProductType.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmClientOrders.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmClientOrders.Designer.cs">
       <DependentUpon>frmClientOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoice.Designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
@@ -110,6 +128,11 @@
       <DependentUpon>frmUserLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="clsOrderDetail.cs" />
+    <Compile Include="OutstandingDelDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutstandingDelDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ProductsReports.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -118,10 +141,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="smartpac_reportsDataSet.Designer.cs">
+    <Compile Include="SalesReportDs.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>smartpac_reportsDataSet.xsd</DependentUpon>
+      <DependentUpon>SalesReportDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
     </Compile>
     <Compile Include="UCAddAccessLevel.cs">
       <SubType>UserControl</SubType>
@@ -141,6 +170,18 @@
     <Compile Include="UCAddEmployee.Designer.cs">
       <DependentUpon>UCAddEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCAddEmployeeType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddEmployeeType.Designer.cs">
+      <DependentUpon>UCAddEmployeeType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAddProductType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddProductType.Designer.cs">
+      <DependentUpon>UCAddProductType.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCAddVehicle.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -153,11 +194,17 @@
     <Compile Include="UCClient.Designer.cs">
       <DependentUpon>UCClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCAuditTrailReport.cs">
+    <Compile Include="UCAuditLogReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCAuditTrailReport.Designer.cs">
-      <DependentUpon>UCAuditTrailReport.cs</DependentUpon>
+    <Compile Include="UCAuditLogReport.Designer.cs">
+      <DependentUpon>UCAuditLogReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCClientOrderReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCClientOrderReport.Designer.cs">
+      <DependentUpon>UCClientOrderReport.cs</DependentUpon>
     </Compile>
     <Compile Include="UCCreditReturnReport.cs">
       <SubType>UserControl</SubType>
@@ -194,6 +241,24 @@
     </Compile>
     <Compile Include="UCMaintainEmployee.Designer.cs">
       <DependentUpon>UCMaintainEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMaintainEmployeeType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainEmployeeType.Designer.cs">
+      <DependentUpon>UCMaintainEmployeeType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMaintainProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainProduct.Designer.cs">
+      <DependentUpon>UCMaintainProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMaintainProductType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainProductType.Designer.cs">
+      <DependentUpon>UCMaintainProductType.cs</DependentUpon>
     </Compile>
     <Compile Include="UCMaintainTemplateFields.cs">
       <SubType>UserControl</SubType>
@@ -411,8 +476,18 @@
     <Compile Include="UCViewOrders.Designer.cs">
       <DependentUpon>UCViewOrders.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Audit_Create_Report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Audit_Create_Report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddProductType.resx">
+      <DependentUpon>frmAddProductType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmClientOrders.resx">
       <DependentUpon>frmClientOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoice.resx">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
@@ -434,7 +509,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="rptSale.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="rptInvoice.rdlc" />
     <EmbeddedResource Include="rptClientOrders.rdlc" />
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCAddAccessLevel.resx">
       <DependentUpon>UCAddAccessLevel.cs</DependentUpon>
     </EmbeddedResource>
@@ -444,14 +525,23 @@
     <EmbeddedResource Include="UCAddEmployee.resx">
       <DependentUpon>UCAddEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCAddEmployeeType.resx">
+      <DependentUpon>UCAddEmployeeType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAddProductType.resx">
+      <DependentUpon>UCAddProductType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCAddVehicle.resx">
       <DependentUpon>UCAddVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCClient.resx">
       <DependentUpon>UCClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCAuditTrailReport.resx">
-      <DependentUpon>UCAuditTrailReport.cs</DependentUpon>
+    <EmbeddedResource Include="UCAuditLogReport.resx">
+      <DependentUpon>UCAuditLogReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCClientOrderReport.resx">
+      <DependentUpon>UCClientOrderReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCCreditReturnReport.resx">
       <DependentUpon>UCCreditReturnReport.cs</DependentUpon>
@@ -470,6 +560,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainEmployee.resx">
       <DependentUpon>UCMaintainEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainEmployeeType.resx">
+      <DependentUpon>UCMaintainEmployeeType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainProduct.resx">
+      <DependentUpon>UCMaintainProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainProductType.resx">
+      <DependentUpon>UCMaintainProductType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainTemplateFields.resx">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>
@@ -582,6 +681,17 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="OutstandingDelDs.xsc">
+      <DependentUpon>OutstandingDelDs.xsd</DependentUpon>
+    </None>
+    <None Include="OutstandingDelDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OutstandingDelDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OutstandingDelDs.xss">
+      <DependentUpon>OutstandingDelDs.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\OrderDetail.datasource" />
     <None Include="Properties\DataSources\Orders.datasource" />
@@ -597,16 +707,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="smartpac_reportsDataSet.xsc">
-      <DependentUpon>smartpac_reportsDataSet.xsd</DependentUpon>
+    <None Include="SalesReportDs.xsc">
+      <DependentUpon>SalesReportDs.xsd</DependentUpon>
     </None>
-    <None Include="smartpac_reportsDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>smartpac_reportsDataSet.Designer.cs</LastGenOutput>
+    <None Include="SalesReportDs.xsd">
       <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReportDs.Designer.cs</LastGenOutput>
     </None>
-    <None Include="smartpac_reportsDataSet.xss">
-      <DependentUpon>smartpac_reportsDataSet.xsd</DependentUpon>
+    <None Include="SalesReportDs.xss">
+      <DependentUpon>SalesReportDs.xsd</DependentUpon>
     </None>
     <None Include="UCOrder\App.config" />
   </ItemGroup>
@@ -632,12 +742,19 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="smartpac_reports.mdf">
+    <Content Include="DbOutstandingDel.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="smartpac_reports_log.ldf">
+    <Content Include="DbOutstandingDel_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>smartpac_reports.mdf</DependentUpon>
+      <DependentUpon>DbOutstandingDel.mdf</DependentUpon>
+    </Content>
+    <Content Include="DbSalesReport.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DbSalesReport_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DbSalesReport.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

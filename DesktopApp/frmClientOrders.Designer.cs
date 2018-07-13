@@ -29,43 +29,32 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.ReportViewerClientOrder = new Microsoft.Reporting.WinForms.ReportViewer();
             this.OrderDetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.OrderDetailBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // ReportViewerClientOrder
             // 
-            reportDataSource2.Name = "OrderDetails";
-            reportDataSource2.Value = this.OrderDetailBindingSource;
-            this.ReportViewerClientOrder.LocalReport.DataSources.Add(reportDataSource2);
-            this.ReportViewerClientOrder.LocalReport.ReportEmbeddedResource = "DesktopApp.rptClientOrders.rdlc";
+            reportDataSource1.Name = "OrderDetails";
+            reportDataSource1.Value = this.OrderDetailBindingSource;
+            this.ReportViewerClientOrder.LocalReport.DataSources.Add(reportDataSource1);
+            this.ReportViewerClientOrder.LocalReport.ReportEmbeddedResource = "DesktopApp.rptInvoice.rdlc";
             this.ReportViewerClientOrder.Location = new System.Drawing.Point(-4, 12);
             this.ReportViewerClientOrder.Name = "ReportViewerClientOrder";
-            this.ReportViewerClientOrder.Size = new System.Drawing.Size(666, 393);
+            this.ReportViewerClientOrder.Size = new System.Drawing.Size(805, 462);
             this.ReportViewerClientOrder.TabIndex = 0;
             // 
             // OrderDetailBindingSource
             // 
             this.OrderDetailBindingSource.DataMember = "OrderDetail";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(48, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmClientOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 440);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(813, 486);
             this.Controls.Add(this.ReportViewerClientOrder);
             this.Name = "frmClientOrders";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -80,6 +69,5 @@
 
         private Microsoft.Reporting.WinForms.ReportViewer ReportViewerClientOrder;
         private System.Windows.Forms.BindingSource OrderDetailBindingSource;
-        private System.Windows.Forms.Button button1;
     }
 }

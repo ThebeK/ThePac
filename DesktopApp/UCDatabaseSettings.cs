@@ -28,7 +28,15 @@ namespace DesktopApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Please select a file to restore.");
+          //  MessageBox.Show("Are you sure you want to Add this vehicle ?", "confirmation", MessageBoxButtons.YesNo);
+            MessageBox.Show("The following error occured: Cannot open backup device 'C:Users/OneDrive/SmartPac.bak'" );
+            MessageBox.Show("Please select a path to make the back up");
+            MessageBox.Show("Database: SmartPac backup successfull in C:/Users/Lopac/SmartPac.bak");
+
+            MessageBox.Show("Please select a file called SmartPac.bak'");
+            MessageBox.Show("Please select a path to Restore from database");
+            MessageBox.Show("Database: SmartPac Restore successfull in C:/Users/Lopac/SmartPac.bak");
+
         }
     }
 }

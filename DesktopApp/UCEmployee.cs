@@ -34,5 +34,22 @@ namespace DesktopApp
             MaintainEmployee.BringToFront();
             MaintainEmployee.Dock = DockStyle.Fill;
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+            UCAddEmployeeType employeeType = new UCAddEmployeeType();
+            panel4.Controls.Add(employeeType);
+            employeeType.BringToFront();
+            employeeType.Dock = DockStyle.Fill;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            UCMaintainEmployeeType employeeType = new UCMaintainEmployeeType();
+            panel4.Controls.Add(employeeType);
+            employeeType.BringToFront();
+            employeeType.Dock = DockStyle.Fill;
+        }
     }
 }
