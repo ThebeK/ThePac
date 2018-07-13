@@ -49,6 +49,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -88,6 +100,14 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Audit_Create_Report.cs">
@@ -114,6 +134,12 @@
     </Compile>
     <Compile Include="frmInvoice.Designer.cs">
       <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScanQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScanQR.Designer.cs">
+      <DependentUpon>frmScanQR.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
@@ -290,6 +316,12 @@
     <Compile Include="UCOrderReport.Designer.cs">
       <DependentUpon>UCOrderReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCOrder\frmClientPurchaseOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCOrder\frmClientPurchaseOrders.Designer.cs">
+      <DependentUpon>frmClientPurchaseOrders.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCOutstandingDeliveriesReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -410,6 +442,12 @@
     <Compile Include="UCRestore.Designer.cs">
       <DependentUpon>UCRestore.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCRoutePlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRoutePlan.Designer.cs">
+      <DependentUpon>UCRoutePlan.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCSale.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -488,6 +526,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInvoice.resx">
       <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScanQR.resx">
+      <DependentUpon>frmScanQR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
@@ -585,6 +626,9 @@
     <EmbeddedResource Include="UCOrderReport.resx">
       <DependentUpon>UCOrderReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCOrder\frmClientPurchaseOrders.resx">
+      <DependentUpon>frmClientPurchaseOrders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCOutstandingDeliveriesReport.resx">
       <DependentUpon>UCOutstandingDeliveriesReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -644,6 +688,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCRestore.resx">
       <DependentUpon>UCRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRoutePlan.resx">
+      <DependentUpon>UCRoutePlan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCSale.resx">
       <DependentUpon>UCSale.cs</DependentUpon>

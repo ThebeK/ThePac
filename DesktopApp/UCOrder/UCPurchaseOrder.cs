@@ -57,7 +57,10 @@ namespace DesktopApp
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-
+            UCRoutePlan Rp = new UCRoutePlan();
+            panel4.Controls.Add(Rp);
+            Rp.BringToFront();
+            Rp.Dock = DockStyle.Fill;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -176,6 +179,12 @@ namespace DesktopApp
         private void lblMaintainPO_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmScanQR f = new frmScanQR();
+            f.ShowDialog();
         }
     }
 }

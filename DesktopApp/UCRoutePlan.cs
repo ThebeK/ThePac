@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCSuppAddOrder : UserControl
+    public partial class UCRoutePlan : UserControl
     {
-        public UCSuppAddOrder()
+        public UCRoutePlan()
         {
             InitializeComponent();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            UCOrder.frmClientPurchaseOrders f = new UCOrder.frmClientPurchaseOrders();
-            f.ShowDialog();
+            StringBuilder add = new StringBuilder("http://www.google.com/maps");
+            webBrowser1.Navigate(add.ToString());
         }
     }
 }
