@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCMaintainProductType : UserControl
+    public partial class UCMaintainAccessLevel : UserControl
     {
-        public UCMaintainProductType()
+        public UCMaintainAccessLevel()
         {
             InitializeComponent();
         }
