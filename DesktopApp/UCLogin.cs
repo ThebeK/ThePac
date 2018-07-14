@@ -35,5 +35,11 @@ namespace DesktopApp
                 MessageBox.Show("Incorrect details");
             }
         }
+
+        private void lnlblForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmAutherization f = new frmAutherization();
+            f.ShowDialog();
+        }
     }
 }

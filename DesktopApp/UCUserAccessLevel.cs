@@ -19,7 +19,7 @@ namespace DesktopApp
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            UCUser user = new UCUser();
+            UCAddUser user = new UCAddUser();
             panel4.Controls.Add(user);
             user.BringToFront();
             user.Dock = DockStyle.Fill;
@@ -32,6 +32,23 @@ namespace DesktopApp
             accessLevel.BringToFront();
             accessLevel.Dock = DockStyle.Fill;
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            UCMaintainUser maintainUser = new UCMaintainUser();
+            panel4.Controls.Add(maintainUser);
+            maintainUser.BringToFront();
+            maintainUser.Dock = DockStyle.Fill;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+            UCMaintainAccessLevel maintainAccessL = new UCMaintainAccessLevel();
+            panel4.Controls.Add(maintainAccessL);
+            maintainAccessL.BringToFront();
+            maintainAccessL.Dock = DockStyle.Fill;
         }
     }
 }

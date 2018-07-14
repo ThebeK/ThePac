@@ -117,11 +117,18 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="clsOrders.cs" />
+    <Compile Include="Encryption.cs" />
     <Compile Include="frmAddProductType.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAddProductType.Designer.cs">
       <DependentUpon>frmAddProductType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutherization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutherization.Designer.cs">
+      <DependentUpon>frmAutherization.cs</DependentUpon>
     </Compile>
     <Compile Include="frmClientOrders.cs">
       <SubType>Form</SubType>
@@ -134,6 +141,18 @@
     </Compile>
     <Compile Include="frmInvoice.Designer.cs">
       <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaintainProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaintainProduct.Designer.cs">
+      <DependentUpon>frmMaintainProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResetPasswrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResetPasswrd.Designer.cs">
+      <DependentUpon>frmResetPasswrd.cs</DependentUpon>
     </Compile>
     <Compile Include="frmScanQR.cs">
       <SubType>Form</SubType>
@@ -202,17 +221,17 @@
     <Compile Include="UCAddEmployeeType.Designer.cs">
       <DependentUpon>UCAddEmployeeType.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCAddProductType.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCAddProductType.Designer.cs">
-      <DependentUpon>UCAddProductType.cs</DependentUpon>
-    </Compile>
     <Compile Include="UCAddVehicle.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCAddVehicle.Designer.cs">
       <DependentUpon>UCAddVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAutherization.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAutherization.Designer.cs">
+      <DependentUpon>UCAutherization.cs</DependentUpon>
     </Compile>
     <Compile Include="UCClient.cs">
       <SubType>UserControl</SubType>
@@ -256,6 +275,12 @@
     <Compile Include="UCEmployeeReport.Designer.cs">
       <DependentUpon>UCEmployeeReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCMaintainAccessLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainAccessLevel.Designer.cs">
+      <DependentUpon>UCMaintainAccessLevel.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCMaintainClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -280,17 +305,17 @@
     <Compile Include="UCMaintainProduct.Designer.cs">
       <DependentUpon>UCMaintainProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCMaintainProductType.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCMaintainProductType.Designer.cs">
-      <DependentUpon>UCMaintainProductType.cs</DependentUpon>
-    </Compile>
     <Compile Include="UCMaintainTemplateFields.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCMaintainTemplateFields.Designer.cs">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMaintainUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMaintainUser.Designer.cs">
+      <DependentUpon>UCMaintainUser.cs</DependentUpon>
     </Compile>
     <Compile Include="UCMaintainVehicle.cs">
       <SubType>UserControl</SubType>
@@ -484,11 +509,11 @@
     <Compile Include="UCUpdateCompanyInfo.Designer.cs">
       <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCUser.cs">
+    <Compile Include="UCAddUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCUser.Designer.cs">
-      <DependentUpon>UCUser.cs</DependentUpon>
+    <Compile Include="UCAddUser.Designer.cs">
+      <DependentUpon>UCAddUser.cs</DependentUpon>
     </Compile>
     <Compile Include="UCUserAccessLevel.cs">
       <SubType>UserControl</SubType>
@@ -521,11 +546,20 @@
     <EmbeddedResource Include="frmAddProductType.resx">
       <DependentUpon>frmAddProductType.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAutherization.resx">
+      <DependentUpon>frmAutherization.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmClientOrders.resx">
       <DependentUpon>frmClientOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInvoice.resx">
       <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaintainProduct.resx">
+      <DependentUpon>frmMaintainProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResetPasswrd.resx">
+      <DependentUpon>frmResetPasswrd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmScanQR.resx">
       <DependentUpon>frmScanQR.cs</DependentUpon>
@@ -569,11 +603,11 @@
     <EmbeddedResource Include="UCAddEmployeeType.resx">
       <DependentUpon>UCAddEmployeeType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCAddProductType.resx">
-      <DependentUpon>UCAddProductType.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UCAddVehicle.resx">
       <DependentUpon>UCAddVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAutherization.resx">
+      <DependentUpon>UCAutherization.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCClient.resx">
       <DependentUpon>UCClient.cs</DependentUpon>
@@ -596,6 +630,9 @@
     <EmbeddedResource Include="UCEmployeeReport.resx">
       <DependentUpon>UCEmployeeReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainAccessLevel.resx">
+      <DependentUpon>UCMaintainAccessLevel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainClient.resx">
       <DependentUpon>UCMaintainClient.cs</DependentUpon>
     </EmbeddedResource>
@@ -608,11 +645,11 @@
     <EmbeddedResource Include="UCMaintainProduct.resx">
       <DependentUpon>UCMaintainProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCMaintainProductType.resx">
-      <DependentUpon>UCMaintainProductType.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainTemplateFields.resx">
       <DependentUpon>UCMaintainTemplateFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMaintainUser.resx">
+      <DependentUpon>UCMaintainUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMaintainVehicle.resx">
       <DependentUpon>UCMaintainVehicle.cs</DependentUpon>
@@ -710,8 +747,8 @@
     <EmbeddedResource Include="UCUpdateCompanyInfo.resx">
       <DependentUpon>UCUpdateCompanyInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCUser.resx">
-      <DependentUpon>UCUser.cs</DependentUpon>
+    <EmbeddedResource Include="UCAddUser.resx">
+      <DependentUpon>UCAddUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCUserAccessLevel.resx">
       <DependentUpon>UCUserAccessLevel.cs</DependentUpon>

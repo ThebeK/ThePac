@@ -94,7 +94,6 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSuppAddOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.ucSuppBackOrder.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCSupplier.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUpdateCompanyInfo.resources
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCUserAccessLevel.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCVehicle.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCViewOrderItems.resources
@@ -110,8 +109,6 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddEmployeeType.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainEmployeeType.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainProduct.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmAddProductType.resources
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddProductType.resources
-C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainProductType.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCRoutePlan.resources
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\AForge.dll
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\AForge.Video.DirectShow.dll
@@ -127,3 +124,10 @@ C:\VS\SmartPac repo\DesktopApp\bin\Debug\zxing.presentation.pdb
 C:\VS\SmartPac repo\DesktopApp\bin\Debug\zxing.presentation.xml
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmScanQR.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCOrder.frmClientPurchaseOrders.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmResetPasswrd.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmAutherization.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAutherization.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainAccessLevel.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainUser.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmMaintainProductTYpe.resources
+C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddUser.resources

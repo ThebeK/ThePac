@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCAddProductType : UserControl
+    public partial class UCAutherization : UserControl
     {
-        public UCAddProductType()
+        public UCAutherization()
         {
             InitializeComponent();
         }
