@@ -136,6 +136,12 @@
     <Compile Include="frmClientOrders.Designer.cs">
       <DependentUpon>frmClientOrders.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGenerateQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateQR.Designer.cs">
+      <DependentUpon>frmGenerateQR.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInvoice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,12 @@
     <Compile Include="frmScanQR.Designer.cs">
       <DependentUpon>frmScanQR.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSignIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignIO.Designer.cs">
+      <DependentUpon>frmSignIO.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +185,12 @@
       <DependentUpon>frmUserLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="clsOrderDetail.cs" />
+    <Compile Include="frmViewOrderItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewOrderItems.Designer.cs">
+      <DependentUpon>frmViewOrderItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="OutstandingDelDs.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -449,6 +467,12 @@
     <Compile Include="UCOrder\UCPurchaseOrder.Designer.cs">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCReceiveSO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCReceiveSO.Designer.cs">
+      <DependentUpon>UCReceiveSO.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCRefund.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -527,12 +551,6 @@
     <Compile Include="UCVehicle.Designer.cs">
       <DependentUpon>UCVehicle.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCViewOrderItems.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCViewOrderItems.Designer.cs">
-      <DependentUpon>UCViewOrderItems.cs</DependentUpon>
-    </Compile>
     <Compile Include="UCViewOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -552,6 +570,9 @@
     <EmbeddedResource Include="frmClientOrders.resx">
       <DependentUpon>frmClientOrders.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateQR.resx">
+      <DependentUpon>frmGenerateQR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInvoice.resx">
       <DependentUpon>frmInvoice.cs</DependentUpon>
     </EmbeddedResource>
@@ -564,11 +585,17 @@
     <EmbeddedResource Include="frmScanQR.resx">
       <DependentUpon>frmScanQR.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSignIO.resx">
+      <DependentUpon>frmSignIO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserLogin.resx">
       <DependentUpon>frmUserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewOrderItems.resx">
+      <DependentUpon>frmViewOrderItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductsReports.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -717,6 +744,9 @@
     <EmbeddedResource Include="UCOrder\UCPurchaseOrder.resx">
       <DependentUpon>UCPurchaseOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCReceiveSO.resx">
+      <DependentUpon>UCReceiveSO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCRefund.resx">
       <DependentUpon>UCRefund.cs</DependentUpon>
     </EmbeddedResource>
@@ -755,9 +785,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCVehicle.resx">
       <DependentUpon>UCVehicle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCViewOrderItems.resx">
-      <DependentUpon>UCViewOrderItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCViewOrders.resx">
       <DependentUpon>UCViewOrders.cs</DependentUpon>

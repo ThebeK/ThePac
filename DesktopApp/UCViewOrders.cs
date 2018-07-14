@@ -29,17 +29,15 @@ namespace DesktopApp
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            UCViewOrders v = new UCViewOrders();
-            UCViewOrderItems vi = new UCViewOrderItems();
-            v.Controls.Add(vi);
-            vi.BringToFront();
-            vi.Dock = DockStyle.Fill;
+            
+            frmViewOrderItems vi = new frmViewOrderItems();
+            vi.ShowDialog();
         }
 
         private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             UCViewOrders v = new UCViewOrders();
-            UCViewOrderItems vi = new UCViewOrderItems();
+            frmViewOrderItems vi = new frmViewOrderItems();
             v.Controls.Add(vi);
             vi.BringToFront();
             vi.Dock = DockStyle.Fill;
@@ -48,7 +46,7 @@ namespace DesktopApp
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
             UCViewOrders v = new UCViewOrders();
-            UCViewOrderItems vi = new UCViewOrderItems();
+            frmViewOrderItems vi = new frmViewOrderItems();
             v.splitContainer1.Controls.Add(vi);
             vi.BringToFront();
             vi.Dock = DockStyle.Fill;

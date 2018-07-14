@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class UCViewOrderItems : UserControl
+    public partial class UCReceiveSO : UserControl
     {
-        public UCViewOrderItems()
+        public UCReceiveSO()
         {
             InitializeComponent();
         }

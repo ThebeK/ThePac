@@ -41,5 +41,13 @@ namespace DesktopApp
             SuppBackOrder.BringToFront();
             SuppBackOrder.Dock = DockStyle.Fill;
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            UCReceiveSO RSO = new UCReceiveSO();
+            panel4.Controls.Add(RSO);
+            RSO.BringToFront();
+            RSO.Dock = DockStyle.Fill;
+        }
     }
 }
