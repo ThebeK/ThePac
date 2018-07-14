@@ -141,6 +141,12 @@
     <Compile Include="frmScanQR.Designer.cs">
       <DependentUpon>frmScanQR.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSignIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignIO.Designer.cs">
+      <DependentUpon>frmSignIO.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -529,6 +535,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmScanQR.resx">
       <DependentUpon>frmScanQR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignIO.resx">
+      <DependentUpon>frmSignIO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>

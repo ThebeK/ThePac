@@ -19,9 +19,19 @@ namespace DesktopApp
         {
             InitializeComponent();
         }
+
         private FilterInfoCollection CaptureDevice;
         private VideoCaptureDevice FinalFrame;
 
+        private string id;
+
+        public string DecodeID
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
+        
         private void FinalFrame_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             pictureBox1.Image = (Image)eventArgs.Frame.Clone();
@@ -63,17 +73,14 @@ namespace DesktopApp
                 timer1.Stop();
                 string decoded = result.ToString().Trim();
 
-
                 MessageBox.Show(decoded);
+                DecodeID=decoded;
                 this.Close();
-
-
             }
             catch (Exception)
             {
                 timer1.Stop();
                 MessageBox.Show("No code detected");
-
             }
         }
 
