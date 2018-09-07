@@ -131,3 +131,8 @@ C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainAccessLevel.resour
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCMaintainUser.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.frmMaintainProductTYpe.resources
 C:\VS\SmartPac repo\DesktopApp\obj\Debug\DesktopApp.UCAddUser.resources
+C:\Users\ktheb\Source\Repos\ThePac2\DesktopApp\bin\Debug\DesktopApp.exe.config
+C:\Users\ktheb\Source\Repos\ThePac2\DesktopApp\obj\Debug\DesktopApp.exe
+C:\Users\ktheb\Source\Repos\ThePac2\DesktopApp\obj\Debug\DesktopApp.pdb
+C:\Users\ktheb\Source\Repos\ThePac2\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\Users\ktheb\Source\Repos\ThePac2\DesktopApp\obj\Debug\DesktopApp.csproj.DesktopApp.exe.config
